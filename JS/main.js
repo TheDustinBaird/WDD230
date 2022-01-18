@@ -38,4 +38,3 @@ try {
 }   catch (e) {
     alert('Error with code or this browser does not support Locale');
 }
-

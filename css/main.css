@@ -1,3 +1,4 @@
+@charset "utf-8";
 body {
   background-color: #ffffff;
   font-family: "Lora", serif;
@@ -12,14 +13,15 @@ h1 {
 
 header,footer {
   background-color: #03f6ea;
-  color: rgb(10, 10, 10);
-  padding: 8px;
+  color: black;
+  padding: 12px;
   border-radius: 15px;
 }
 
 header h1 {
   font-size: 45px;
   text-align: center;
+  text-shadow: 0 0 15px black;
 }
 header{
   display: flex;

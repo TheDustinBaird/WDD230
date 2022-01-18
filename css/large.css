@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;700&display=swap');
+@media only screen and (min-width: 56.25em) {
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin:0.5rem;
+        margin-right: 90px;  
+    }
+    
+    body{
+        text-align: center;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+
+    section.three{
+        grid-column: span 1;
+        border:5px solid gray;
+        background-color: white;
+    }
+
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 20px;
+        text-align: center;
+        font-family: Roboto; 
+    }
+    h1 {
+        font-size: 1.6rem;
+        margin-left: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+     }
+    }
+     
