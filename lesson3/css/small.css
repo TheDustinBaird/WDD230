@@ -1,0 +1,128 @@
+
+body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+  }
+  
+  header,
+  main,
+  nav,
+  footer {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  header {
+    font-family: "Dancing Script";
+    color: #0c0c0c;
+    background-color: #11B8FF;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .name {
+    font-size: 24px;
+  }
+  
+  
+  section h2 {
+    font-family: "Dancing Script";
+    color: #11B8FF;
+  }
+  
+  ul {
+    background-color: #0c0c0c;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  
+  li a {
+    display: block;
+    color: #f9f9fa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #3e4041;
+    color: white;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  section {
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+    border-style:solid;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .banner {
+    width: 100%; 
+  }
+  .section-img {
+    width: 40%;
+    text-align: center;
+    color: white;
+  }
+  
+  section p {
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: #11B8FF;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  a:link {
+    color: mediumblue;
+  }
+  
+  .active {
+    background-color: rgb(204, 203, 203);
+    color: black;
+  }
+  
+  .colors-img {
+    width: 100%;
+  }
+  
+  .type-li {
+    background-color: white;
+  }
+  
+  .type1 {
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .type2 {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .type3 {
+    font-family: "Open Sans", sans-serif;
+  }
