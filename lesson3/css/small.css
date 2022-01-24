@@ -1,8 +1,8 @@
 
 body {
-    background-color: white;
+    background-color: #FFFFFF;
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: #000000;
   }
   
   header,
@@ -15,7 +15,7 @@ body {
   
   header {
     font-family: "Dancing Script";
-    color: #0c0c0c;
+    color: #000000;
     background-color: #11B8FF;
     padding: 10px;
     width: 100%;
@@ -28,17 +28,20 @@ body {
   }
   
   .name {
-    font-size: 24px;
+    display: inline-block;
+    font-size: 33px;
   }
   
   
   section h2 {
     font-family: "Dancing Script";
     color: #11B8FF;
+    text-shadow: 0 0 1px #000000;
+  
   }
   
   ul {
-    background-color: #0c0c0c;
+    background-color: #000000;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,17 +51,26 @@ body {
   
   li a {
     display: block;
-    color: #f9f9fa;
+    color: #FFFFFF;
     text-align: center;
+    text-shadow: 0 0 10px #FFFFFF;
     font-weight: bold;
     font-size: 18px;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: #3e4041;
-    color: white;
+    background-color: #3E4041;
+    color: #FFFFFF;
+  }
+
+  .active {
+    background-color: #CCCBCB;
+    color: #000000;
+    text-shadow: 0 0 10px #FFFFFF;
+    font-weight: bold;
+    
   }
   
   main {
@@ -70,21 +82,24 @@ body {
   
   section {
     border-radius: 15px;
-    border-color: black;
+    border-color: #000000;
     border-width: 3px;
     border-style:solid;
     padding: 10px;
-    text-align: center;
-    
+    text-align: center; 
   }
   
   .banner {
+    height: auto;
     width: 100%; 
   }
+
   .section-img {
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
   }
   
   section p {
@@ -93,30 +108,22 @@ body {
   
   footer {
     background-color: #11B8FF;
-    color: black;
+    color: #000000;
     padding: 10px;
     text-align: center;
   }
   
   a:link {
-    color: mediumblue;
-  }
-  
-  .active {
-    background-color: rgb(204, 203, 203);
-    color: black;
-  }
-  
-  .colors-img {
-    width: 100%;
+    color: #0000CD;
   }
   
   .type-li {
-    background-color: white;
+    background-color: #FFFFFF;
   }
   
   .type1 {
-    font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script";
+    font-size: 20px;
   }
   
   .type2 {
