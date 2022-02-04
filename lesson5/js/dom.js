@@ -3,7 +3,11 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 
 
-button.onclick = function () {
+button.addEventListener('click', function(){
+if (input.value == ''){
+    alert("Please enter a book and chapter");
+}
+else{    
   let inputItem = input.value;
   input.value = "";
 
@@ -25,5 +29,5 @@ button.onclick = function () {
   };
 
   input.focus();
-
-};
+}
+});
