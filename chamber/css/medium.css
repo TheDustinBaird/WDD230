@@ -1,0 +1,98 @@
+@media only screen and (min-width: 37.5em) {
+  .toggle-button {
+    display: none;
+  }
+  .navbar-links {
+    display: flex;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-links ul {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .navbar-links li {
+    list-style: none;
+
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    padding: 0.2rem;
+    display: block;
+    width: 100%;
+    background: #11b8ff;
+  }
+  .name {
+    font-size: 47px;
+  }
+
+  .section-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    padding-top: 1rem;
+  }
+
+  .logo {
+    display: block;
+    float: left;
+    left: 10px;
+    top: 10px;
+    width: 9rem;
+    border-radius: 10px;
+  }
+  .hero {
+    grid-row: 1;
+    width: 98%;
+
+  }
+  .news {
+    grid-row: 2;
+  }
+  .join {
+    display: grid;
+    grid-row: 4;
+  }
+  .weather {
+    display: grid;
+    grid-row: auto;
+    
+  }
+  .event {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .spotlight1 {
+    display:grid;
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .spotlight2 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    width: 1.5fr;
+  }
+.spotlight3 {
+  display: none;
+}
+}

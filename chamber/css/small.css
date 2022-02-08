@@ -1,0 +1,221 @@
+
+header, footer {
+    text-align: center;
+    background: linear-gradient(to left, white, #00BAF0, #00BAF0);
+    color: black;
+    border-radius: 15px;
+    width: 100%;
+    
+}
+
+header h1 {
+    font-size: 45px;
+    text-shadow: 0 0 25px black;
+}
+
+header{
+  display: inline-block;
+  grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+  font-size: .7em;
+  background-color: #011640;
+  color: black;
+  padding: .6em;
+  grid-column-gap: .8rem;
+  height: 150px;
+ 
+}
+
+.name {
+    margin-left: .5rem;
+    background: none;
+  }
+  
+.name h1 {
+    font-size: 3.5rem;
+    margin: .5rem;
+  }
+.name h2 {
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-weight: 700;
+  }
+  
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.navbar-links ul {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+   }
+
+.navbar-links li {
+    list-style: none;
+    text-align: center;
+    background: #00BAF0;
+    
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1rem;
+    display: flex;
+    
+}
+.navbar :hover {
+  color: white;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    left: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.navbar-links {
+    display:none;
+}
+    
+.toggle-button {
+    display: flex;
+    }
+
+.navbar-links.active {
+    display: flex;
+    z-index: 5;
+
+}
+.date {
+    display: grid;
+    
+    align-self: center;
+}
+
+.social {
+      display:inline-flex;
+      float: right;
+    }
+    
+.social img{
+      width: 25px;
+      height: auto;      
+    }
+
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
+  padding-top: 1rem;
+}
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+    color: black;
+    font-family: Roboto;
+    justify-content: center;
+}
+#banner {
+  display:none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+
+p{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    color: black; 
+    font-family: Roboto;
+    
+}
+
+.logo {
+  display: none;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+.hero,
+.event,
+.weather,
+.news {
+  border-style: solid;
+  width: 1fr;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.join {
+  display: none;
+  border-style: solid;
+  width: 1fr;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+
+.spotlight1 {
+  display: none;
+  border-style: solid;
+  width: 1fr;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.spotlight2 {
+  display: none;
+  border-style: solid;
+  width: 1fr;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.spotlight3 {
+  display: none; 
+  border-radius: 10px;
+  background-color: #eee;
+}

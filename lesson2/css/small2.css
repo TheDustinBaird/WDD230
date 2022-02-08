@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;700&display=swap');
+
+
+header, footer {
+    text-align: center;
+    background-color: #0b59d6;
+    color: black;
+    text-shadow: 0 0 25px white;
+    border-radius: 15px;
+    box-shadow: 0 0 17px black;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+footer{
+    color: white; 
+  }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+body{
+    margin: 0 auto;
+    color: black;
+    font-family: Roboto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+section{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0 auto;
+    border:5px solid gray;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: black; 
+    font-family: Roboto;
+    
+}
+
+img{
+    width: 500px;
+    
+}
