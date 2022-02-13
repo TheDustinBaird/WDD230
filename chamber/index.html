@@ -1,52 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Milky Mountain Chamber of Commerce." />
-    <title>Milky Mountain Chamber of Commerce</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
-    <script src="js/toggle.js" defer></script>
-  </head>
 
-  <body>
-    <div id="banner"> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m </div>
-    <div id="content">
-      <header>
-        <img class="logo" src="images/milkyMountainLogo.png" alt="Milky Mountain Logo">
-        <div class="name">
-          
-          <h1>Milky Mountain</h1>
-          <h2>Chamber of Commerce</h2>
-          
-        </div>
-        <nav class="navbar">
-          
-          <a href="#" class="toggle-button">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-          <ul class=>
-            <li><a href="index.html">Home</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Milky Mountain Chamber of Commerce." />
+  <title>Milky Mountain Chamber of Commerce</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1032px)" href="css/large.css" />
+  <script src="js/toggle.js" defer></script>
+</head>
+
+<body>
+  <div id="banner"> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m </div>
+  <div id="content">
+    <header>
+      <img class="logo" src="images/mmlogo2sm.webp" alt="Milky Mountain Logo">
+      
+      <div class="name">
+        <h1>Milky Mountain</h1>
+        <h2>Chamber of Commerce</h2>
+      </div>
+      
+      <nav class="navbar">
+
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li class="active"><a href="index.html">Home </a></li>
             <li><a href="discovery.html">Discovery</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
@@ -54,73 +46,99 @@
 
           </ul>
         </div>
-        </nav>
         <div class="social">
-          <a class="social img" href="https://www.facebook.com/" target="_blank"
-            ><img src="images/facebook3.jpg" alt="facebook icon"
-          /></a>
-          <a class="social img" href="https://twitter.com/" target="_blank"
-            ><img src="images/5502824-twitter-png-twitter-logo-twitter-icon-twitter-transparent-twitter-icon-transparent-260_260_preview.png" alt="twitter icon"
-          /></a>
+          <picture href="https://facebook.com" target="_blank"><img src="../chamber/images/facebook.svg" alt="Facebook logo"></picture>
+          <picture href="https://linkedin.com" target="_blank"><img src="../chamber/images/linkedin.svg" alt="LinkedIn logo"></picture>
+          <picture href="https://twitter.com" target="_blank"><img src="../chamber/images/twitter.svg" alt="twitter logo"></picture>
+      </div>
+      </nav>
+
+      <span class="date"></span>
+    </header>
+
+    <section class="grid-container">
+    
+        <div class="hero">
+          <h2>Welcome to Milky Mountain</h2>
+          <!--<img src="images/mountain2.jpg" alt="The Mountain">-->
+          <picture>
+            <source media="(max-width: 599px)" srcset="images/wdd230-org-small.jpg">
+            <source media="(max-width: 1031px)" srcset="images/wdd230-org-medium.jpg">
+            <source media="(max-width: 1600px)" srcset="images/wdd230-org-large.jpg">
+            <img src="images/wdd230-org-large.jpg" alt="A business meeting">
+          </picture>
+          
         </div>
-        <span class="date"></span>
-      </header>
-      
-      <main>
-        <section class="hero">
-          <h2>Hero with site name and call to action</h2>
-          <img src="images/mountain2.jpg" alt="The Mountain">
-        </section>
 
-        <section class="event">
-          <div>
-            <h2>Event</h2>
-            <p>Filler Paragraph Here</p>
+        <div class="event">
+            <h2>Upcoming Events</h2>
+            <p>🚒 Firehouse Pancake Breakfast on Saturday the 15th at 7:00 am. 
+              The cost is $6 per person or $20 per family. 🥞
+              Remember, if your house burned down this year your breakfast is free.
+            </p>
+            <p><strong>Soft Ball tournament</strong> on April 15th. Make sure you pay your taxes early so you
+              can quell your crying before the first pitch. 
+            </p>
           </div>
-        </section>
-
-        <section class="weather">
-          <div>
+        
+        <div class="weather">
             <h2>Weather</h2>
-            <p>Filler Paragraph Here</p>
+            <img src="../chamber/images/partlycloudy.png" alt="Partly Cloudy image">
+            <h2><span id="temp"> 26 </span>&#176; </h2>
+            <h3> Partly Cloudy</h3>
+            <p>Wind Speed: <span id="speed"> 31 mph </span>
+           <br> Wind Chill: <span id="windchill"></span></p>
           </div>
-        </section>
-        <section class="news">
-          <div>
-            <h2>News Release</h2>
-            <p>Filler Paragraph Here</p>
+        <div class="news">
+            <h2>Local Happenings</h2>
+            <p>With the weather warming up soon you are all welcome to bring the ducks 🦆 back to the park.</p>
+            <p>Please remember that skeet shooting is now prohibited within city limits. Thanks Darryl.</p>
+            <p></p>
+        </div>
+        <div class="join">
+            <h2>Join Us!</h2>
+            <p>If there is one thing this chamber needs (besides a new pot), it's more members! 
+              Fill out the form and join us as we better our community.</p>
           </div>
-        </section>
-        <section class="join">
-          <div>
-            <h2>Join</h2>
-            <p>Filler Paragraph Here</p>
-          </div>
-        </section>
-        <section>
+          
+        <div class="spotlight">
           <div class="spotlight1">
-            <h2>Spotlight 1</h2>
-            <p>Filler Paragraph Here</p>
+            <h2>🍔Burger Barn🍔</h2>
+            <p>Come on in for a try at the "Full Haystack"-- Nearly 3 pounds of 
+              Choice Angus beef topped with onion straws, lettuce, pickles, tomatoes, 
+              and a pound of American cheese. Piled high on a bed of 2 more pounds of steak fries, 
+              and paired with a 44oz chocolate shake. If you can eat the whole thing, you get a t-shirt 
+              and a complimentary physical from Dr. Richards!</p>
           </div>
           <div class="spotlight2">
-            <h2>Spotlight 2</h2>
-            <p>Filler Paragraph Here</p>
+            <h2>Jeepers Creepers</h2>
+            <picture><img src="images/jeep.png" alt="Blue Jeep"> </picture>
+            <p>Bring your Jeep on down to Jeepers Creepers for a free air exchange in two tires 
+              with the purchase of the first two (spare tire air exchange extra).
+            <br>Don't forget we also rotate ball bearings and top off blinker fluid.</p>
           </div>
           <div class="spotlight3">
-            <h2>Spotlight 3</h2>
-            <p>Filler Paragraph Here</p>
+            <h2>🦷Kieth-Richards Family Dentistry🦷</h2>
+            <p>Dr. Toby Keith and Dr. Denise Richards invite you to "give them one more chance" 
+              now that their office has re-opened following the electrical fire. They promise not to try
+            that again. Results guaranteed or double your plaque back. </p>
           </div>
-        </section>
-      </main>
+        </div>
+    </section>
 
       <footer>
-        <p>
-          &copy; <span id="copyrightyear"></span> | Dustin Baird | WDD230 |
-          Syracuse, Utah
+        <img class="footlogo" src="images/mmlogo2sm.webp" alt="Milky Mountain Logo">
+        <H2>Milky Mountain Chamber of Commerce</H2>
+        <p>1713 Main St.
+          <br>Milky Mountain, MT 59999
         </p>
-        <p>Last Updated: <span id="lastupdated"></span></p>
+        <hr>
+        <p>
+          &copy; <span id="copyrightyear"> Milky Mountain Chamber</span> | Dustin Baird | WDD230 | Last Updated: <span id="lastupdated"></span></p>
       </footer>
     </div>
     <script src="js/dates.js"></script>
-  </body>
+    <script src="js/windchill.js"></script>
+</body>
+
 </html>
