@@ -1,0 +1,35 @@
+body {
+    background: black;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    margin: 40px 0px 10px;
+    
+}
+
+picture {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img {
+    border: 2px solid white;
+}
