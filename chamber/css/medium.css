@@ -29,7 +29,7 @@
     padding: 0.2rem;
     display: flex;
     width: 100%;
-    background: #11b8ff;
+    background: #00BAF0;
   }
   .name {
     font-size: 47px;
@@ -43,6 +43,13 @@
     width: 9rem;
     border-radius: 10px;
   }
+
+  #banner {
+    display:none;
+    background-color: #A8ADA9;
+    text-align: center;
+    padding: .5rem;
+}
 
   .grid-container {
     grid-template-columns:1fr 1fr;
@@ -108,3 +115,24 @@
     width: 9rem;
     border-radius: 10px;
 }
+
+.deck {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-template-rows:auto;
+  grid-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card img:hover {
+  transform: scale(1.04);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 0 10px #00BAF0;
+
+}
+
