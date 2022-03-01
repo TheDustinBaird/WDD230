@@ -337,6 +337,7 @@ height: auto;
 
 form {
   margin: auto .5rem;
+  justify-content: center;
 }
 
 .joinmain h2 {
@@ -401,6 +402,7 @@ form input.submitBtn {
   padding: .75rem 1.5rem;
   margin: 0 0 2rem 2%;
   width: 200px;
+
 }
 
 form input.submitBtn:hover {

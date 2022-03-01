@@ -150,13 +150,14 @@
   
 }
 
-.grid-container {
+.joingrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .contact{
   grid-column: 1/2;
@@ -166,6 +167,11 @@
   grid-column: 2/3;
 }
 
+form input.submitBtn{
+  display: grid;
+  grid-row: 3;
+  text-align: center;
+}
 .description {
   display: block;
 font-size: 16px;
