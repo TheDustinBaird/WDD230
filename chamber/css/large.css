@@ -4,6 +4,7 @@ header, footer {
 
 }
 
+
 .name {
     font-size: 47px;
   }
@@ -63,11 +64,16 @@ header, footer {
 
 
 .deck {
-  display: grid;
   grid-template-columns: repeat(3, minmax(400px, 1fr));
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
-  margin-left: auto;
-  margin-right: auto;
 
 }
+
+/**********JOIN PAGE***********/
+
+
+.joinmain h2 {
+  margin-top: 1rem;
+  
+}
+
+

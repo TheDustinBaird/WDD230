@@ -35,6 +35,10 @@
     font-size: 47px;
   }
 
+  footer h2{
+    font-size: 22px;
+  }
+
   .logo {
     display: block;
     float: left;
@@ -136,3 +140,33 @@
 
 }
 
+/*JOIN PAGE*/
+
+.joinmain {
+  justify-items: center;
+}
+.joinmain h2 {
+  margin-top: 1rem;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact{
+  grid-column: 1/2;
+}
+
+.membership {
+  grid-column: 2/3;
+}
+
+.description {
+  display: block;
+font-size: 16px;
+}
