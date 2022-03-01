@@ -2,6 +2,9 @@
 body {
   background-color: #ffffff;
   font-family: "Lora", serif;
+  max-width: 960px;
+  margin: auto;
+
 }
 h1 {
   font-family: "Segoe script", serif;
@@ -16,6 +19,7 @@ header,footer {
   color: black;
   padding: 12px;
   border-radius: 15px;
+  
 }
 
 header h1 {
