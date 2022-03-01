@@ -120,17 +120,19 @@
     border-radius: 10px;
 }
 
+/************* DISCOVER PAGE   *************/
 .deck {
   display: grid;
-  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows:auto;
-  grid-gap: 10px;
+  grid-gap: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .card img {
   transition: transform 0.2s ease-in-out;
+  width: 100%;
 }
 
 .card img:hover {
@@ -153,24 +155,28 @@
 .joingrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 
 .contact{
   grid-column: 1/2;
+  margin-left: 3rem;
+  
 }
 
 .membership {
   grid-column: 2/3;
+  
 }
 
 form input.submitBtn{
   display: grid;
   grid-row: 3;
-  text-align: center;
+  position: relative;
+  left: 50%;
+
+  
 }
 .description {
   display: block;

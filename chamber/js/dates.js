@@ -10,14 +10,13 @@ document.getElementById("todayDate").textContent=stringDate;*/
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
-}).format(now); 
+}).date(now); 
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 const d = new Date();
 const year = d.getFullYear();
 
-console.log(d.getDay());
 
 if(d.getDay() === 2 || d.getDay() === 1) {
 	const banner = document.querySelector("#banner");
