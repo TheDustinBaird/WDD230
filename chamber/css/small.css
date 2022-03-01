@@ -63,22 +63,24 @@ footer{
     font-weight: bold;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     flex-direction: column;
-    width: 100px;
+    width: 90px;
+    background-color: #00BAF0;
+    border: solid;
+    border-color: #000;
    }
 
 .navbar-links li {
-    list-style: none;
     text-align: center;
-    background: none;   
+      
 }
 
 .navbar-links li a {
     text-decoration: none;
     color: black;
-    padding: .5rem 1rem;
-    display: flex;
+    padding: .5rem .5rem;
+    display: block;
 }
 .navbar :hover {
   color: white;
@@ -146,7 +148,8 @@ nav ul li.active a {
     
 .social img{
       width: 25px;
-      height: auto;      
+      height: auto;
+      margin-right: 1rem;      
     }
 
 body{
