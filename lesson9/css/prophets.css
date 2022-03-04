@@ -17,14 +17,11 @@ main {
 div.cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1px;
+    grid-row-gap: 1rem;
+    margin: 0 auto;
   }
 
-.cards {
-    grid-gap: 1px;
 
-
-}
 
 section {
     background-color: #555;
