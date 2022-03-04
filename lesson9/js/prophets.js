@@ -25,10 +25,11 @@ fetch(requestURL)
       dob.textContent = "Date of Birth: " + `${prophet.birthdate}`;
       bplace.textContent = "Place of Birth: " + `${prophet.birthplace}`;
 
-      card.appendChild(portrait);
+    
       card.appendChild(h2);
       card.appendChild(dob);
       card.appendChild(bplace);
+      card.appendChild(portrait);
 
       document.querySelector('.cards').appendChild(card);
      }

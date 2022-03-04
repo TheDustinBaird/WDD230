@@ -39,12 +39,14 @@ section {
 h1 {
     font-size: 46px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 25px;
     text-align: center;
     color: #4d4d96;
 }
 
-h2 {text-align: center;
+h2 {
+    text-align: center;
+    font-size: 36px;
     color: #4d4d96;
     letter-spacing: 90%;
 
