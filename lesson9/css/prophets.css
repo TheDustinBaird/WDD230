@@ -3,9 +3,7 @@ main,
 footer {
     margin: 0 auto;
     max-width: 100%;
-    
 }
-
 
 main {
     align-content: center;
@@ -70,10 +68,13 @@ main section {
 
 footer {
     border-top: 1px solid #555;
+    border-radius: 15px;
+    font-size: 26px;
     color: white;
     text-align: center;
-    background-color: #777;
+    background-color: #555;
     padding: 8px;
+
 }
 
 
