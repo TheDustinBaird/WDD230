@@ -181,3 +181,13 @@ form input.submitBtn{
   display: block;
 font-size: 16px;
 }
+
+/***********************DIRECTORY PAGE***********************/
+
+.list-view section {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-view {
+  grid-template-columns: repeat(2, 1fr);
+}

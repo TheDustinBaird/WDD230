@@ -30,7 +30,7 @@ footer{
   grid-column-gap: .8rem;
   border-radius: 15px;
   width: 100%;
-  margin: .1em auto;
+  margin: auto;
   max-width: 960px;
 }
 
@@ -143,7 +143,7 @@ nav ul li.active a {
     float: right;
     width: 20px;
     height: auto;
-    margin-right: 4rem;
+    margin-right: 8rem;
     
     }
     
@@ -152,7 +152,7 @@ nav ul li.active a {
       height: auto;
       margin-right: 1rem;      
     }
-
+  
 body{
   margin:auto;
   max-width: 1200px;
@@ -341,8 +341,6 @@ height: auto;
 
 
 
-
-
 /**************JOIN PAGE********************/
 
 form {
@@ -414,8 +412,6 @@ form input.submitBtn {
   padding: .75rem 1.5rem;
   margin:1rem auto;
   width: 200px;
-  
-
 }
 
 form input.submitBtn:hover {
@@ -462,3 +458,106 @@ form label.jn input:required {
 .thankyou-main video {
   float: right;
 }
+
+/*************DIRECTORY PAGE*************/
+.directory {
+  text-align: center;
+  
+}
+
+.list-view img, .card-view>section h2 {display: none;}
+
+.card-view img{
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.list-view>section h2 {display: block;}
+
+.list-view section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card-view {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*The Directory Cards*/
+.card-view section {
+  padding: .5em;
+  margin: .5em;
+  border-radius: 15px;
+  border: 3px #000 solid;
+}
+
+.list-view-btn button {
+  padding:.6rem 1.1rem;
+  background-color: #d3d6db;
+  border: 3px #00BAF0 solid;
+  border-radius: 5px;
+  margin: .3em;
+}
+
+.list-view section:nth-child(2n) {
+  background: linear-gradient(to left, white, #00BAF0, #00BAF0);
+  border-radius: 15px;
+}
+
+/*****************FLIP CARDS***********************/
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:focus {
+    outline: 0;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/*.flip-card-front {
+  background: linear-gradient(to left, #4364f7, #6fb1fc);
+  color: black;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back {
+  background: linear-gradient(to right, #4364f7, #6fb1fc);
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}  */

@@ -1,0 +1,88 @@
+{
+    "businesses": [
+      {
+        "name": "Burger Barn",
+        "address": "66 S Main St, Milky Mountain, MT 59999",
+        "phone": "(406) 555-BARN (2276)",
+        "website": "https://www.burgerbarn.com/",
+        "imgfile": "images/burger2.jpg"
+      },
+      {
+        "name": "Keith-Richards Family Dentistry",
+        "address": "22 W Tooth Acres Dr Milky Mountain, MT 59999",
+        "phone": "(406) 555-2222",
+        "website": "https://www.keith-richardsdentistry.com/",
+        "imgfile": "images/tooth.png"
+      },
+      {
+        "name": "Jeepers Creepers",
+        "address": "1135 N Main St, Milky Mountain, MT 59999",
+        "phone": "(406) 555-5337",
+        "website": "www.jeeperscreepersauto.com/",
+        "imgfile": "images/jeep.png"
+      },
+      {
+        "name": "Ted's Taxidermy Meuseum",
+        "address": "2121 W Riverside Dr, Milky Mountain, MT 59999",
+        "phone": "(406) 818-1776",
+        "website": "https://www.tedstaxidermy.com",
+        "imgfile": "images/tt.png"
+      },
+      {
+        "name": "Golf N' Stuff",
+        "address": "121 W Bayside Dr, Milky Mountain, MT 59999",
+        "phone": "(406) 868-9956",
+        "website": "http://www.golfnstuff.com",
+        "imgfile": "images/golfnstuff.jpg"
+      },
+      {
+        "name": "Lou's Cafe",
+        "address": "51 S Main St, Milky Mountain, MT 59999",
+        "phone": "(406) 283-1985",
+        "website": "http://www.cafe80s.com/",
+        "imgfile": "images/louscafe5.jpg"
+      },
+      {
+        "name": "Darryl's Guns and Ammo",
+        "address": "109 S Main St, Milky Mountain, MT 59999",
+        "phone": "(406) 578-1776",
+        "website": "http://www.lockandload.com/",
+        "imgfile": "images/bullet.png"
+      },
+      {
+        "name": "Edward's Barbershop",
+        "address": "251 S. Main St, Milky Mountain, MT 59999",
+        "phone": "(406) 778-6229",
+        "website": "http://www.scissorhands.com/",
+        "imgfile":"images/barbershop.webp"
+      },
+      {
+        "name": "Milky Mountain Resort",
+        "address": "5155 E Milky Mountain Rd, Milky Mountain, MT 59999",
+        "phone": "(406) 555-2002",
+        "website": "http://www.milkymountainresort.com",
+        "imgfile": "images/skis.png"
+      },
+      {
+        "name": "Milky Mountain Community College",
+        "address": "571 N. Mountain Goat Rd, Milky Mountain, MT 59999",
+        "phone": "(406) 676-1111",
+        "website": "https://www.mmcc.edu/",
+        "imgfile": "images/mmcc2.png"
+      },
+      {
+        "name": "Bluth Company",
+        "address": "31 N Main St, Milky Mountain, MT 59999",
+        "phone": "(406) 595-3232",
+        "website": "https://www.bananastand.com/",
+        "imgfile": "images/bluth.jpg"
+      },
+      {
+        "name": "Cyberdyne Systems",
+        "address": "166 Technology Way, Milky Mountain, MT 59999",
+        "phone": "(406) 787-2029",
+        "website": "www.cyberdyne.com",
+        "imgfile": "images/cyberdyne.jpg"
+      }
+    ]
+}
