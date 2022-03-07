@@ -47,13 +47,6 @@
     border-radius: 10px;
   }
 
-  #banner {
-    display:none;
-    background-color: #A8ADA9;
-    text-align: center;
-    padding: .5rem;
-}
-
   .grid-container {
     grid-template-columns:1fr 1fr;
     font-size: 1em;

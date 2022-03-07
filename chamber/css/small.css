@@ -164,10 +164,11 @@ body{
 
 #banner {
   display:none;
-  background-color: black;
-  color: white;
+  background-color: #A8ADA9;
+  color: #000000;
   text-align: center;
-  padding: 2rem;
+  padding: .5rem;
+  border-radius: 10px;
 }
 
 
@@ -471,13 +472,9 @@ form label.jn input:required {
 
 .list-view img, .card-view>section h2 {display: none;}
 
-.card-view img{
+.list-view section h2 {
   display: block;
-  width: 70%;
-  margin: auto;
 }
-
-.list-view>section h2 {display: block;}
 
 
 .list-view section {
@@ -486,6 +483,17 @@ form label.jn input:required {
   border-radius: 15px;
   border: 1px #000 solid;
   
+}
+
+.card-view img{
+  display: block;
+  width: 250px;
+  margin: auto;
+}
+
+.card-view section h2 {
+  display: block;
+  color: #00BAF0;
 }
 
 .card-view {
@@ -502,11 +510,12 @@ form label.jn input:required {
   border: 3px #000 solid;
 }
 
+
 .list-view-btn button {
-  padding:.6rem 1.1rem;
+  padding:.6rem 3.9rem;
   background-color: #d3d6db;
   border: 3px #00BAF0 solid;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: .3em;
   
 }

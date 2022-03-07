@@ -21,8 +21,6 @@ function displayBusinesses(business) {
   let image = document.createElement('img');
   image.src = business.imgfile;
   image.setAttribute('alt', business.name);
-  card.appendChild(image);
-
   
   let h2 = document.createElement('h2');
   h2.textContent = business.name;
@@ -30,7 +28,6 @@ function displayBusinesses(business) {
   let p1 = document.createElement('p');
   p1.textContent = business.address;
   
-
   let p2 = document.createElement('p');
   p2.textContent = business.phone;
   
@@ -39,6 +36,7 @@ function displayBusinesses(business) {
   p3.textContent = business.website;
   
   card.appendChild(h2)
+  card.appendChild(image);
   card.appendChild(p1);
   card.appendChild(p2);
   card.appendChild(p3);
