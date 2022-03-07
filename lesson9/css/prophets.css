@@ -1,3 +1,7 @@
+body {
+max-width: 3060px;
+}
+
 header,
 main,
 footer {
@@ -17,6 +21,7 @@ div.cards {
     margin: 0 auto;
     box-shadow: 2px -1px 19px 10px #555;
     border-radius: 15px;
+    
   }
 
 
@@ -31,7 +36,7 @@ section {
 .card section {
     margin: 1rem;   
     padding: 1rem;
-    
+
 }
 
 h1 {
@@ -46,19 +51,18 @@ h2 {
     text-align: center;
     font-size: 36px;
     color: #4d4d96;
-    letter-spacing: 90%;
 
 }
 p {
     text-align: center;
     color: #000;
-    letter-spacing: 90%;
 }
 
 
 img {
     padding: 15px;;
     margin-top: 6px;
+    width: 300px;
 
 }
 
