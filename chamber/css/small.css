@@ -86,6 +86,10 @@ footer{
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+  color: #00BAF0;
+}
 
 .toggle-button {
     position: absolute;
@@ -475,14 +479,19 @@ form label.jn input:required {
 
 .list-view>section h2 {display: block;}
 
+
 .list-view section {
   display: grid;
   grid-template-columns: 1fr;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  
 }
 
 .card-view {
   display: grid;
   grid-template-columns: 1fr;
+  
 }
 
 /*The Directory Cards*/
@@ -499,6 +508,7 @@ form label.jn input:required {
   border: 3px #00BAF0 solid;
   border-radius: 5px;
   margin: .3em;
+  
 }
 
 .list-view section:nth-child(2n) {

@@ -26,21 +26,21 @@ function displayBusinesses(business) {
   
   let h2 = document.createElement('h2');
   h2.textContent = business.name;
-  card.appendChild(h2);
-
-
+ 
   let p1 = document.createElement('p');
   p1.textContent = business.address;
-  card.appendChild(p1);
-
+  
 
   let p2 = document.createElement('p');
   p2.textContent = business.phone;
-  card.appendChild(p2);
-
+  
   
   let p3 = document.createElement('p');
   p3.textContent = business.website;
+  
+  card.appendChild(h2)
+  card.appendChild(p1);
+  card.appendChild(p2);
   card.appendChild(p3);
 
   cards.appendChild(card);
