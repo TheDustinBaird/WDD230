@@ -467,10 +467,11 @@ form label.jn input:required {
 /*************DIRECTORY PAGE*************/
 .directory {
   text-align: center;
-  
 }
 
-.list-view img, .card-view>section h2 {display: none;}
+.list-view img, .card-view section h2 {
+  display: none;
+}
 
 .list-view section h2 {
   display: block;
@@ -580,3 +581,8 @@ form label.jn input:required {
   justify-content: center;
   align-items: center; 
 }  */
+
+
+.discover-main h2 {
+font-family: "Dancing Script";
+}
