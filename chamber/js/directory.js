@@ -25,14 +25,13 @@ function displayBusinesses(business) {
   let h2 = document.createElement('h2');
   h2.textContent = business.name;
  
-  let p1 = document.createElement('p');
+  let p1 = document.createElement('p1');
   p1.textContent = business.address;
   
-  let p2 = document.createElement('p');
+  let p2 = document.createElement('p2');
   p2.textContent = business.phone;
   
-  
-  let p3 = document.createElement('p');
+  let p3 = document.createElement('p3');
   p3.textContent = business.website;
   
   card.appendChild(h2)

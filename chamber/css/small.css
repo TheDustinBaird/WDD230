@@ -315,6 +315,9 @@ height: auto;
   max-width: 400px;
 }
 
+.discover-main h2 {
+  font-family: "Dancing Script";
+  }
 
 .deck {
   display: grid;
@@ -334,6 +337,7 @@ height: auto;
   padding: 1em;
   max-width: 400px;
 }
+
 
 .discover img[data-src] {
   filter: blur(0.2em);
@@ -474,6 +478,7 @@ form label.jn input:required {
 }
 
 .list-view section h2 {
+  font-size: 16px;
   display: block;
 }
 
@@ -485,6 +490,14 @@ form label.jn input:required {
   border: 1px #000 solid;
   
 }
+
+.list-view section p1 {
+display: none;
+}
+
+.list-view section p2 {
+  display: none;
+  }
 
 .card-view img{
   display: block;
@@ -526,9 +539,28 @@ form label.jn input:required {
   border-radius: 15px;
 }
 
+.list-view section p1, p2, p3 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
+  color: black; 
+  font-family: Roboto;
+  }
+
+  .card-view section p1, p2, p3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    color: black; 
+    font-family: Roboto;
+    }
+
 /*****************FLIP CARDS***********************/
 
 
+/*not ready yet
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -563,7 +595,7 @@ form label.jn input:required {
   backface-visibility: hidden;
 }
 
-/*.flip-card-front {
+.flip-card-front {
   background: linear-gradient(to left, #4364f7, #6fb1fc);
   color: black;
   z-index: 2;
@@ -581,8 +613,3 @@ form label.jn input:required {
   justify-content: center;
   align-items: center; 
 }  */
-
-
-.discover-main h2 {
-font-family: "Dancing Script";
-}

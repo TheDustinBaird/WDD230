@@ -181,6 +181,34 @@ font-size: 16px;
   grid-template-columns: repeat(4, 1fr);
 }
 
+.list-view section h2 {
+  display: block;
+  font-size: 1.3em;
+}
+
+.list-view section p1, p2, p3 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
+  color: black; 
+  font-family: Roboto;
+  }
+
+  .card-view section p1, p2, p3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    color: black; 
+    font-family: Roboto;
+    }
+  
+
+  .list-view section p2 {
+    display: block;
+    }
+
 .card-view {
   grid-template-columns: repeat(2, 1fr);
 }

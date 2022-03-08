@@ -4,21 +4,21 @@
         "name": "Burger Barn",
         "address": "66 S Main St, Milky Mountain, MT 59999",
         "phone": "(406) 555-BARN (2276)",
-        "website": "www.burgerbarn.com/",
+        "website": "www.burgerbarn.com",
         "imgfile": "images/burger3.webp"
       },
       {
         "name": "Keith-Richards Family Dentistry",
         "address": "22 W Tooth Acres Dr Milky Mountain, MT 59999",
         "phone": "(406) 555-2222",
-        "website": "www.keith-richardsdentistry.com/",
+        "website": "www.keith-richardsdentistry.com",
         "imgfile": "images/tooth.webp"
       },
       {
         "name": "Jeepers Creepers",
         "address": "1135 N Main St, Milky Mountain, MT 59999",
         "phone": "(406) 555-5337",
-        "website": "www.jeeperscreepersauto.com/",
+        "website": "www.jeeperscreepersauto.com",
         "imgfile": "images/jeep2.webp"
       },
       {
@@ -39,21 +39,21 @@
         "name": "Lou's Cafe",
         "address": "51 S Main St, Milky Mountain, MT 59999",
         "phone": "(406) 283-1985",
-        "website": "www.cafe80s.com/",
+        "website": "www.cafe80s.com",
         "imgfile": "images/louscafe5.webp"
       },
       {
         "name": "Darrel's Guns and Ammo",
         "address": "109 S Main St, Milky Mountain, MT 59999",
         "phone": "(406) 578-1776",
-        "website": "www.lockandload.com/",
+        "website": "www.lockandload.com",
         "imgfile": "images/bullet2.webp"
       },
       {
         "name": "Edward's Barbershop",
         "address": "251 S. Main St, Milky Mountain, MT 59999",
         "phone": "(406) 778-6229",
-        "website": "www.scissorhands.com/",
+        "website": "www.scissorhands.com",
         "imgfile":"images/barbershop.webp"
       },
       {
@@ -67,14 +67,14 @@
         "name": "Milky Mountain Community College",
         "address": "571 N. Mountain Goat Rd, Milky Mountain, MT 59999",
         "phone": "(406) 676-1111",
-        "website": "www.mmcc.edu/",
+        "website": "www.mmcc.edu",
         "imgfile": "images/mmcc3.webp"
       },
       {
         "name": "Bluth Company",
         "address": "31 N Main St, Milky Mountain, MT 59999",
         "phone": "(406) 595-3232",
-        "website": "www.bananastand.com/",
+        "website": "www.bananastand.com",
         "imgfile": "images/bluth2.webp"
       },
       {
