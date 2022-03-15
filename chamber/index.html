@@ -81,14 +81,33 @@
             </p>
           </div>
         
-        <div class="weather">
-            <h2>Weather</h2>
-            <img src="../chamber/images/partlycloudy.png" alt="Partly Cloudy image">
-            <h2><span id="temp"> 26 </span>&#176; </h2>
-            <h3> Partly Cloudy</h3>
-            <p>Wind Speed: <span id="speed"> 31 mph </span>
-           <br> Wind Chill: <span id="windchill"></span></p>
-          </div>
+          <section class="weather">
+            <img src="" alt="" id="weathericon">
+            <h2>Today's Weather</h2>
+            <div class="summaryGrid">
+              <div class="label">Currently:</div>
+              <div class="weathSumm current"><span id="condition"></span></div>
+              <div class="label">Temp:</div>
+              <div class="weathSumm"><span id="temp"></span>&#176;F</div>
+              <div class="label">Wind Speed:</div>
+              <div class="weathSumm"><span id="wind"></span> mph</div>
+              <div class="label">Wind Chill:</div>
+              <div class="weathSumm"><span id="windChill"></span>&#176;F</div>
+              <div class="label">Humidity:</div>
+              <div class="weathSumm"><span id="humidity"></span>%</div>
+              <div class="label">High Temp:</div>
+              <div class="weathSumm"><span id="temp_max"></span>&#176;F</div>
+              <div class="label">Sunrise:</div>
+              <div class="weathSumm"><span id="sunrise"></span></div>
+              <div class="label">Sunset:</div>
+              <div class="weathSumm"><span id="sunset"></span></div>
+              
+            </div>
+          </section>
+      
+
+
+
         <div class="news">
             <h2>Local Happenings</h2>
             <p>With the weather warming up soon you are all welcome to bring the ducks 🦆 back to the park.</p>
@@ -138,7 +157,7 @@
       </footer>
     </div>
     <script src="js/dates.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
 </body>
 
 </html>

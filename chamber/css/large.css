@@ -4,6 +4,24 @@ header, footer {
 
 }
 
+.headtemp{
+  display: flex;
+  float: right;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+#tempurature {
+  font-size: 40px;
+  padding-left: .5rem;
+}
+
+.tempsymbol {
+  font-size: 35px;
+}
 
 .name {
     font-size: 47px;

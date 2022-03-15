@@ -41,10 +41,30 @@
   .logo {
     display: block;
     float: left;
-    left: 10px;
-    top: 10px;
     width: 9rem;
     border-radius: 10px;
+  }
+  .headtemp{
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+  }
+  .headtemp h2 {
+    font-size: 15px;
+  }
+
+  #tempurature {
+    font-size: 25px;
+    padding-left: .5rem;
+  }
+
+  .tempsymbol {
+    font-size: 20px;
+    padding-bottom: 15px;
   }
 
   .grid-container {
@@ -71,6 +91,7 @@
     grid-column: 1/4;
     grid-row: 4/5;
   }
+  
   .weather {
     grid-column: 3;
     grid-row: 5/6;
@@ -187,27 +208,27 @@ font-size: 16px;
 }
 
 .list-view section p1, p2, p3 {
+  display: flex;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  text-align: center;
   color: black; 
   font-family: Roboto;
   }
 
-  .card-view section p1, p2, p3 {
+.card-view section p1, p2, p3 {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
     text-align: center;
-    color: black; 
     font-family: Roboto;
     }
   
 
-  .list-view section p2 {
-    display: block;
-    }
+.list-view section p2 {
+    display: flex;
+}
 
 .card-view {
   grid-template-columns: repeat(2, 1fr);

@@ -8,3 +8,13 @@ if(t <= 50 && s > 3) {
 else {
     document.querySelector("#windchill").innerHTML = "N/A"
 }
+
+/*  maybe use this for windchill
+function windChill(t, s) {
+    if (t <= 50 && s > 3) {
+      return (35.74 + (0.6215 * t) - (35.75 * Math.pow(s,0.16)) + (0.4275 * t * Math.pow(s,0.16))).toFixed(1);
+    } else {
+      return "N/A";
+    }
+}
+*/

@@ -137,6 +137,10 @@ nav ul li.active a {
 
 }
 
+.headtemp{
+  display: none;
+}
+
 .date {
     display: grid;
     align-self: center;
@@ -200,13 +204,8 @@ p{
   height: auto;
 }*/
 
-.weather img {
-width: 50px;
-height: auto;
-
-}
-
 .weather{
+  padding-top: 15px;
   grid-column: 1;
   grid-row: 3/4;
   border-style: solid;
@@ -482,7 +481,6 @@ form label.jn input:required {
   display: block;
 }
 
-
 .list-view section {
   display: grid;
   grid-template-columns: 1fr;
@@ -540,12 +538,9 @@ display: none;
 }
 
 .list-view section p1, p2, p3 {
-  margin-left: auto;
-  margin-right: auto;
+ 
   font-size: 20px;
-  text-align: center;
-  color: black; 
-  font-family: Roboto;
+  
   }
 
   .card-view section p1, p2, p3 {
@@ -553,8 +548,40 @@ display: none;
     margin-right: auto;
     font-size: 20px;
     text-align: center;
+    vertical-align: center;
     color: black; 
     font-family: Roboto;
+    }
+
+
+    /**********************WEATHER SUMMARY************************/
+
+    .summaryGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 15px;
+      font-size: 20px;
+    }
+    .weather h2{
+      text-shadow: 
+      -1px -1px 5px white,  
+      1px -1px 5px white,
+      1px 1px 5px white;
+    }
+    
+    .label {
+      text-align: right;
+    }
+    
+    .weathSumm {
+      text-align: left;
+    }
+    /* capitalize the first letter of the weather condition*/
+    #condition{
+      display: block;
+    }
+    #condition::first-letter{
+      text-transform:capitalize;
     }
 
 /*****************FLIP CARDS***********************/
