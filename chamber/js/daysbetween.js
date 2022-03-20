@@ -1,16 +1,34 @@
-const lastvisit_text = window.localStorage.getItem('lastvisit');
-if(lastvisit_text === undefined) 
-{
-    lastvisit_text = new Date(Date.now());
-}
-/*const lastvisit = Date.parse(lastvisit_text);*/
+localStorage.setItem('lastvisit', Date.now())
+
+let lastVisit = document.querySelector('#lastVisit');
+
+
+const lastvisit = Number(localStorage.getItem('lastvisit'));
+
+
 const FACTOR = 1000 * 60 * 60 * 24;
 
 
-let daysbetween = Date.now() - lastvisit;
-let numberOfDays = daysbetween / FACTOR;
+const daysbetween = Date.now() - lastvisit;
 
-window.localStorage.setItem('lastvisit', new Date(Date.now()));
 
-const daysSinceVisit = Math.floor(numberOfDays);
-document.getElementById('lastvisit').textContent = daysSinceVisit;
+const numberOfDays = daysbetween / FACTOR;
+
+
+const lastMessage = `We last saw y'all ${Math.round(numberOfDays)} days ago.`
+const firstMessage = 'Welcome friend, looks like you might be new here.'
+const yesterdayMessage = `We last saw y'all yesterday.`
+
+
+  if (numberOfDays == 1) {
+    lastVisit.textContent = yesterdayMessage;
+  } else if (numberOfDays > 1) {
+    lastVisit.textContent = lastMessage;
+  } else {
+    lastVisit.textContent = firstMessage;
+  }
+
+
+
+
+

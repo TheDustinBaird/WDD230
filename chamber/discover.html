@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css" />
   <link rel="stylesheet" media="screen and (min-width: 1032px)" href="css/large.css" />
   <script src="js/toggle.js" defer></script>
@@ -55,6 +55,7 @@
           <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" alt="twitter logo"></a>
       </div>
       </nav>
+      <!-- <span class="date"></span> -->
       <span class="date"></span>
     </header>
     <div id="banner"> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m </div>
@@ -109,20 +110,27 @@
             </div>
         </div>
     </main>
+  
 
     <footer>
         <img class="footlogo" src="images/mmlogo2sm.webp" alt="Milky Mountain Logo">
         <H2>Milky Mountain Chamber of Commerce</H2>
+        <span class="date"></span>
         <p>1713 Main St.
           <br>Milky Mountain, MT 59999
         </p>
         <hr>
+        
         <p>
           &copy; <span id="copyrightyear"> Milky Mountain Chamber</span> | Dustin Baird | WDD230 | Last Updated: <span id="lastupdated"></span></p>
-          <p id="sameday"> We last saw y'all <span id="lastvisit"></span> days ago.</p>
-          <script src="js/daysbetween.js"></script>
+        
+      <p id="lastVisit"></p>
+
         </footer>
+        
     </div>
+  
+    
     <script src="js/tempurature.js"></script>
     <script src="js/dates.js"></script>
     <script src="js/daysbetween.js"></script>

@@ -5,84 +5,101 @@
         "address": "66 S Main St, Milky Mountain, MT 59999",
         "phone": "(406) 555-BARN",
         "website": "www.burgerbarn.com",
-        "imgfile": "images/burger3.webp"
+        "imgfile": "images/burger3.webp",
+        "level": "Executive",
+        "info": "Come on in for a try at the 'Full Haystack'-- Nearly 3 pounds of Choice Angus beef topped with onion straws, lettuce, pickles, tomatoes, and a pound of American cheese. Piled high on a bed of 2 more pounds of steak fries, and paired with a 44oz chocolate shake. If you can eat the whole thing, you get a t-shirt and a complimentary physical from Dr. Richards!"
       },
       {
         "name": "Keith-Richards Family Dentistry",
         "address": "22 W Tooth Acres Dr Milky Mountain, MT 59999",
         "phone": "(406) 555-2222",
         "website": "www.keith-richardsdentistry.com",
-        "imgfile": "images/tooth.webp"
+        "imgfile": "images/tooth.webp",
+        "level": "Executive",
+        "info": "Dr. Toby Keith and Dr. Denise Richards invite you to 'give them one more chance' now that their office has re-opened following the electrical fire. They promise not to try that again. Results guaranteed or double your plaque back."
       },
       {
         "name": "Jeepers Creepers",
         "address": "1135 N Main St, Milky Mountain, MT 59999",
         "phone": "(406) 555-5337",
         "website": "www.jeeperscreepersauto.com",
-        "imgfile": "images/jeep2.webp"
+        "imgfile": "images/jeep2.webp",
+        "level": "Executive",
+        "info": "Bring your Jeep on down to Jeepers Creepers for a free air exchange in two tires with the purchase of the first two (spare tire air exchange extra). Don't forget we also rotate ball bearings and top off blinker fluid."
       },
       {
         "name": "Ted's Taxidermy Meuseum",
         "address": "2121 W Riverside Dr, Milky Mountain, MT 59999",
         "phone": "(406) 818-1776",
         "website": "www.tedstaxidermy.com",
-        "imgfile": "images/tt2.webp"
+        "imgfile": "images/tt2.webp",
+        "level": "Supporter"
       },
       {
         "name": "Golf N' Stuff",
         "address": "121 W Bayside Dr, Milky Mountain, MT 59999",
         "phone": "(406) 868-9956",
         "website": "www.golfnstuff.com",
-        "imgfile": "images/golfnstuff2.webp"
+        "imgfile": "images/golfnstuff2.webp",
+        "level": "Supporter"
       },
       {
         "name": "Lou's Cafe",
         "address": "51 S Main St, Milky Mountain, MT 59999",
         "phone": "(406) 283-1985",
         "website": "www.cafe80s.com",
-        "imgfile": "images/louscafe5.webp"
+        "imgfile": "images/louscafe5.webp",
+        "level": "Affiliate"
       },
       {
         "name": "Darrel's Guns and Ammo",
         "address": "109 S Main St, Milky Mountain, MT 59999",
         "phone": "(406) 578-1776",
         "website": "www.lockandload.com",
-        "imgfile": "images/bullet2.webp"
+        "imgfile": "images/bullet2.webp",
+        "level": "Supporter"
+        
       },
       {
         "name": "Edward's Barbershop",
         "address": "251 S. Main St, Milky Mountain, MT 59999",
         "phone": "(406) 778-6229",
         "website": "www.scissorhands.com",
-        "imgfile":"images/barbershop.webp"
+        "imgfile":"images/barbershop.webp",
+        "level": "Stratigic Partner"
       },
       {
         "name": "Milky Mountain Resort",
         "address": "5155 E Milky Mountain Rd, Milky Mountain, MT 59999",
         "phone": "(406) 555-2002",
         "website": "www.milkymountainresort.com",
-        "imgfile": "images/skis3.webp"
+        "imgfile": "images/skis3.webp",
+        "level": "Executive",
+        "info": "Come and join us on one of 49 groomed runs to enjoy the fresh powder that is Milky Mountain. If you think you're up to it you can attempt to tame K12. Just remember, if anything gets in your way, turn."
       },
       {
         "name": "Milky Mountain Community College",
         "address": "571 N. Mountain Goat Rd, Milky Mountain, MT 59999",
         "phone": "(406) 676-1111",
         "website": "www.mmcc.edu",
-        "imgfile": "images/mmcc3.webp"
+        "imgfile": "images/mmcc3.webp",
+        "level": "Stratigic Partner"
       },
       {
         "name": "Bluth Company",
         "address": "31 N Main St, Milky Mountain, MT 59999",
         "phone": "(406) 595-3232",
         "website": "www.bananastand.com",
-        "imgfile": "images/bluth2.webp"
+        "imgfile": "images/bluth2.webp",
+        "level": "Affiliate"
       },
       {
         "name": "Cyberdyne Systems",
         "address": "166 Technology Way, Milky Mountain, MT 59999",
         "phone": "(406) 787-2029",
         "website": "www.cyberdyne.com",
-        "imgfile": "images/cyberdyne2.webp"
+        "imgfile": "images/cyberdyne2.webp",
+        "level": "Supporter"
       }
     ]
 }

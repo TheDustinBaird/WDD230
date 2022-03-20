@@ -23,9 +23,6 @@ header, footer {
   font-size: 35px;
 }
 
-.name {
-    font-size: 47px;
-  }
 
 .grid-container {
     grid-template-columns: repeat(3, minmax(0, 1fr));

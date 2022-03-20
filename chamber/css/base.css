@@ -50,6 +50,23 @@ footer{
     margin: .5rem;
     font-weight: 700;
   }
+
+.index-name {
+    margin-left: .5rem;
+    background: none;
+  }
+  
+.index-name h1 {
+    font-family: "Dancing Script";
+    font-size: 3.5rem;
+    margin: .5rem;
+  }
+.index-name h2 {
+    font-family: "Dancing Script";
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-weight: 700;
+  }
   
 .navbar {
     display: flex;
@@ -142,8 +159,12 @@ nav ul li.active a {
 }
 
 .date {
-    display: grid;
-    align-self: center;
+  display: flex;
+  float: right;
+  padding: 0.1rem;
+  color: #000000;
+  font-size: 12px;
+  margin-right: 32px; 
 }
 
 .social {
@@ -199,10 +220,11 @@ p{
   padding-top: 1rem;
 }
 
-/*.hero img {
-  width: 400px;
-  height: auto;
-}*/
+.hero img {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+}
 
 .weather{
   grid-column: 1;
@@ -235,6 +257,7 @@ p{
   text-align: center;
   border-radius: 10px;
   background-color: white;
+  padding: .5rem;
 }
 
 .event h2{
@@ -250,6 +273,7 @@ p{
   text-align: center;
   border-radius: 10px;
   background: linear-gradient(to left, white, #00BAF0, #00BAF0);
+  padding: .5rem;
 }
 .join {
   display: none;
@@ -261,6 +285,7 @@ p{
   text-align: center;
   border-radius: 10px;
   background-color: white;
+  padding: .5rem;
 }
 
 .spotlight{
@@ -284,6 +309,7 @@ p{
   text-align: center;
   border-radius: 10px;
   background-color: white;
+  padding: .5rem;
 }
 
 .spotlight2 {
@@ -293,6 +319,7 @@ p{
   text-align: center;
   border-radius: 10px;
   background-color:#00BAF0;
+  padding: .5rem;
 }
 
 .spotlight3 {
@@ -303,6 +330,7 @@ p{
   text-align: center;
   border-radius: 10px;
   background-color: white;
+  padding: .5rem;
 }
 
 /**************** Discover Page***************************/
@@ -334,8 +362,8 @@ p{
   margin-top: 10px;
   padding: 1em;
   max-width: 400px;
+  
 }
-
 
 .discover img[data-src] {
   filter: blur(0.2em);
@@ -344,6 +372,12 @@ p{
 .discover img {
   filter: blur(0em);
   transition: filter 0.1s;
+}
+
+.lastvisit {
+  padding: 0.1rem;
+  color: #000000;
+  font-size: 12px;
 }
 
 
@@ -397,7 +431,7 @@ form label.jn input, form label.jn select {
   font-size: 1rem;
   border-radius: 4px;
   padding: .75rem;
-  color: #CCCBCB;
+  color: #000000;
   width: 100%;
   max-width: 20rem;
   background-color: #CCCBCB;
@@ -485,7 +519,6 @@ form label.jn input:required {
   grid-template-columns: 1fr;
   border-radius: 15px;
   border: 1px #000 solid;
-  
 }
 
 .list-view section p1 {
@@ -528,7 +561,6 @@ display: none;
   border: 3px #00BAF0 solid;
   border-radius: 15px;
   margin: .3em;
-  
 }
 
 .list-view section:nth-child(2n) {
@@ -537,20 +569,17 @@ display: none;
 }
 
 .list-view section p1, p2, p3 {
- 
   font-size: 20px;
-  
+  text-align: center;
   }
 
-  .card-view section p1, p2, p3 {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    text-align: center;
-    vertical-align: center;
-    color: black; 
-    font-family: Roboto;
-    }
+.card-view section p1, p2, p3 {
+  font-size: 20px;
+  vertical-align: center;
+  color: black; 
+  font-family: Roboto;
+  justify-content: center;
+  }
 
 
     /**********************WEATHER SUMMARY************************/

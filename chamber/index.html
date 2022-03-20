@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css" />
   <link rel="stylesheet" media="screen and (min-width: 1032px)" href="css/large.css" />
   <script src="js/toggle.js" defer></script>
@@ -23,7 +23,7 @@
     <header>
       <img class="logo" src="images/mmlogo2sm.webp" alt="Milky Mountain Logo">
       
-      <div class="name">
+      <div class="index-name">
         <h1>Milky Mountain</h1>
         <h2>Chamber of Commerce</h2>
       </div>
@@ -42,16 +42,15 @@
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="contact.html">Contact</a></li>
-
           </ul>
         </div>
+        
         <div class="social">
           <a href="https://facebook.com" target="_blank"><img src="images/face1.png" alt="Facebook logo"></a>
           <a href="https://linkedin.com" target="_blank"><img src="images/linkin1.png" alt="LinkedIn logo"></a>
           <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" alt="twitter logo"></a>
       </div>
       </nav>
-
       <div class="date"></div>
     </header>
     <div id="banner"> 🤝🏼 Please join us for the chamber meet and greet Wednesday at 7:00 p.m 🤝🏼</div>
@@ -60,12 +59,8 @@
     
         <div class="hero">
           <h2>Welcome to Milky Mountain</h2>
-          <!--<img src="images/mountain2.jpg" alt="The Mountain">-->
           <picture>
-            <source media="(max-width: 599px)" srcset="images/wdd230-org-small.jpg">
-            <source media="(max-width: 1031px)" srcset="images/wdd230-org-medium.jpg">
-            <source media="(max-width: 1600px)" srcset="images/wdd230-org-large.jpg">
-            <img src="images/wdd230-org-large.jpg" alt="A business meeting">
+          <img src="images/mountain2.jpg" alt="The Mountain">
           </picture>
           
         </div>
@@ -105,24 +100,24 @@
               
             </div>
           </section>
-      
-
-
 
         <div class="news">
             <h2>Local Happenings</h2>
             <p>With the weather warming up soon you are all welcome to bring the ducks 🦆 back to the park.</p>
             <p>Please remember that skeet shooting is now prohibited within city limits. Thanks Darrel.</p>
-            <p></p>
+            <p>Thanks to a generous donation from the Mountain View Emergency Room physicians and Blazzard Insurance Group, 
+              the city will begin construction on the new <strong>skate park</strong> next month.🛹</p>
         </div>
         <div class="join">
             <h2>Join Us!</h2>
-            <p>If there is one thing this chamber needs (besides a new pot), it's more members! 
+            <p>If there is one thing this chamber needs (besides a new pot), it is more members! 
               Fill out the form and join us as we better our community.</p>
+              <p> This is a great opportunity to take an active role and have your business recognized 
+                as one that has a positive impact locally. </p>
           </div>
           
         <div class="spotlight">
-          <div class="spotlight1">
+           <div class="spotlight1">
             <h2>🍔Burger Barn🍔</h2>
             <p>Come on in for a try at the "Full Haystack"-- Nearly 3 pounds of 
               Choice Angus beef topped with onion straws, lettuce, pickles, tomatoes, 
@@ -132,7 +127,7 @@
           </div>
           <div class="spotlight2">
             <h2>Jeepers Creepers</h2>
-            <picture><img src="images/jeep.png" alt="Blue Jeep"> </picture>
+            <picture><img src="images/jeep.webp" alt="Blue Jeep"> </picture>
             <p>Bring your Jeep on down to Jeepers Creepers for a free air exchange in two tires 
               with the purchase of the first two (spare tire air exchange extra).
             <br>Don't forget we also rotate ball bearings and top off blinker fluid.</p>
@@ -155,10 +150,13 @@
         <hr>
         <p>
           &copy; <span id="copyrightyear"> Milky Mountain Chamber</span> | Dustin Baird | WDD230 | Last Updated: <span id="lastupdated"></span></p>
-      </footer>
+          <p>Weather updates brought to you by <a href="https://www.openweathermap.org"target="_blank">OpenWeatherMap.org</a>
+          </p>
+        </footer>
     </div>
     <script src="js/dates.js"></script>
     <script src="js/weatherapi.js"></script>
+    <script src="js/spotlight.js"></script>
 </body>
 
 </html>
