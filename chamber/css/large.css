@@ -60,7 +60,6 @@ header, footer {
     grid-row: 1/4;
     display: grid;
     grid-template-columns: minmax(0,300px);
-    grid-template-rows: minmax(content, content);
     grid-gap: 10px;
 }
 

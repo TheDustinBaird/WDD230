@@ -1,14 +1,14 @@
 header h1 {
   font-size: 45px;
-  text-shadow: 0 0 25px white;
+  text-shadow: 0 0 25px #ffffff;
 }
 
 header {
   display: inline-block;
   text-align: center;
-  background: linear-gradient(to left, white, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
   align-items: center;
-  color: black;
+  color: #000000;
   padding: 0.6em;
   grid-column-gap: 0.8rem;
   height: 150px;
@@ -20,7 +20,7 @@ header {
 footer {
   display: inline-block;
   text-align: center;
-  background: linear-gradient(to left, white, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
   padding: 0.6em;
   grid-column-gap: 0.8rem;
   border-radius: 15px;
@@ -87,12 +87,12 @@ footer {
 
 .navbar-links li a {
   text-decoration: none;
-  color: black;
+  color: #000000;
   padding: 0.5rem 0.5rem;
   display: block;
 }
 .navbar :hover {
-  color: white;
+  color: #ffffff;
 }
 
 button:hover {
@@ -123,7 +123,7 @@ button:hover {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: black;
+  background-color: #000000;
   border-radius: 10px;
 }
 
@@ -132,7 +132,7 @@ button:hover {
 }
 
 nav ul li.active a {
-  color: black;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -189,7 +189,7 @@ p {
   margin-right: auto;
   font-size: 20px;
   text-align: center;
-  color: black;
+  color: #000000;
   font-family: Roboto;
 }
 
@@ -221,19 +221,18 @@ p {
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .weather {
   grid-column: 1;
   grid-row: 3/4;
   border-style: solid;
-  width: 1fr;
   height: auto;
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background: linear-gradient(to left, white, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
 }
 
 
@@ -245,12 +244,12 @@ p {
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background-color: white;
+  background-color: #ffffff;
   padding: 0.5rem;
 }
 
 .event h2 {
-  color: black;
+  color: #000000;
   text-shadow: 1px 1.4px 0 #00baf0;
 }
 .news {
@@ -261,19 +260,18 @@ p {
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background: linear-gradient(to left, white, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
   padding: 0.5rem;
 }
 .join {
   display: none;
   border-style: solid;
   border-color: #00baf0;
-  width: 1fr;
   height: auto;
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background-color: white;
+  background-color: #ffffff;
   padding: 0.5rem;
 }
 
@@ -396,7 +394,6 @@ form fieldset {
   border-radius: 10px;
   padding: 0.5rem 2.5%;
   max-width: 25rem;
-  height: 1fr;
   padding-inline-end: 2rem;
 }
 
@@ -553,7 +550,7 @@ form label.jn input:required {
 }
 
 .list-view section:nth-child(2n) {
-  background: linear-gradient(to left, white, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
   border-radius: 15px;
 }
 
@@ -565,7 +562,7 @@ form label.jn input:required {
 .card-view section {
   font-size: 20px;
   vertical-align: center;
-  color: black;
+  color: #000000;
   font-family: Roboto;
   justify-content: center;
 }
@@ -579,7 +576,7 @@ form label.jn input:required {
   font-size: 20px;
 }
 .weather h2 {
-  text-shadow: -1px -1px 5px white, 1px -1px 5px white, 1px 1px 5px white;
+  text-shadow: -1px -1px 5px #ffffff, 1px -1px 5px #ffffff, 1px 1px 5px #ffffff;
 }
 
 .label {
