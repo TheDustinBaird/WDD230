@@ -63,20 +63,22 @@ header, footer {
     grid-template-rows: minmax(content, content);
     grid-gap: 10px;
 }
-.spotlight1 {
+
+#spotlight1 {
   grid-column: 1;
   grid-row: 1;
+  
 }
-.spotlight2 {
+#spotlight2 {
   grid-column: 1;
   grid-row: 2;
 }
-.spotlight3 {
+
+#spotlight3 {
   display: grid;
   grid-column: 1;
   grid-row: 3;
 }
-
 
 .deck {
   grid-template-columns: repeat(3, minmax(400px, 1fr));

@@ -25,20 +25,20 @@ function displayBusinesses(business) {
   let h2 = document.createElement('h2');
   h2.textContent = business.name;
  
-  let p1 = document.createElement('p1');
-  p1.textContent = business.address;
+  let address = document.createElement('p');
+  address.textContent = business.address;
   
-  let p2 = document.createElement('p2');
-  p2.textContent = business.phone;
+  let phone = document.createElement('p');
+  phone.textContent = business.phone;
   
-  let p3 = document.createElement('p3');
-  p3.textContent = business.website;
+  let website = document.createElement('p');
+  website.textContent = business.website;
   
   card.appendChild(h2)
   card.appendChild(image);
-  card.appendChild(p1);
-  card.appendChild(p2);
-  card.appendChild(p3);
+  card.appendChild(address);
+  card.appendChild(phone);
+  card.appendChild(website);
 
   cards.appendChild(card);
 
