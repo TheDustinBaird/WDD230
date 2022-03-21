@@ -13,7 +13,7 @@ fetch(requestURL)
         spotlights.forEach((spotlight,index) => {
             const i = Math.floor(Math.random() * featuredBusinesses.length);
             const business = featuredBusinesses[i];
-            console.log(spotlight)
+            
 
             //gather business name
             let name = document.createElement('h2');
