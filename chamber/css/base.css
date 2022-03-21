@@ -8,7 +8,6 @@ header {
   text-align: center;
   background: linear-gradient(to left, white, #00baf0, #00baf0);
   align-items: center;
-  font-size: 0.7em;
   color: black;
   padding: 0.6em;
   grid-column-gap: 0.8rem;
@@ -207,10 +206,22 @@ p {
   padding-top: 1rem;
 }
 
+
 .hero img {
-  width: 100%;
-  height: 80%;
+  max-width: 95%;
+  border-radius: 15px;
+  padding-bottom: .5rem;
+}
+
+.hero {
+  grid-column: 1;
+  grid-row: 1/2;
+  border-style: solid;
+  height: auto;
+  margin: 5px;
+  text-align: center;
   border-radius: 10px;
+  background-color: white;
 }
 
 .weather {
@@ -225,16 +236,7 @@ p {
   background: linear-gradient(to left, white, #00baf0, #00baf0);
 }
 
-.hero {
-  grid-column: 1;
-  grid-row: 1/2;
-  border-style: solid;
-  height: auto;
-  margin: 5px;
-  text-align: center;
-  border-radius: 10px;
-  background-color: white;
-}
+
 .event {
   grid-column: 1/3;
   grid-row: 2/3;
