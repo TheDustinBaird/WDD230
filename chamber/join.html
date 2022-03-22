@@ -22,14 +22,15 @@
   <div id="content">
     <header>
       <img class="logo" src="images/mmlogo2sm.webp" alt="Milky Mountain Logo">
-      <div class="headtemp"><h2>Current <br>Temp:</h2><span id="tempurature"></span>
+      <div class="headtemp">
+        <h2>Current <br>Temp:</h2><span id="tempurature"></span>
         <div class="tempsymbol">&#176;</div>
       </div>
       <div class="name">
         <h1>Milky Mountain</h1>
         <h2>Chamber of Commerce</h2>
       </div>
-      
+
       <nav class="navbar">
 
         <a href="#" class="toggle-button">
@@ -44,13 +45,13 @@
             <li><a href="directory.html">Directory</a></li>
             <li class="active"><a href="join.html">Join</a></li>
             <li><a href="contact.html">Contact</a></li>
-           </ul>
+          </ul>
         </div>
         <div class="social">
           <a href="https://facebook.com" target="_blank"><img src="images/face1.png" alt="Facebook logo"></a>
           <a href="https://linkedin.com" target="_blank"><img src="images/linkin1.png" alt="LinkedIn logo"></a>
           <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" alt="twitter logo"></a>
-      </div>
+        </div>
       </nav>
 
       <span class="date"></span>
@@ -59,51 +60,63 @@
 
     <div class="joinmain">
       <h2 class="heading">Join The Chamber</h2>
-    
+
       <form class="joingrid" method="get" action="thankyou.html">
-        <div class="contact">  
+        <div class="contact">
           <fieldset>
-              <legend>Primary Contact</legend>
-              <label class="jn">First Name*<input type="text" name="fname" required></label>
-              <label class="jn">Last Name*<input type="text" name="lname" required></label>
-              <label class="jn">Business Name<input type="text" name="bus-name" title="Business Name" required></label>
-              <label class="jn">Title<input type="text" name="bus-title" pattern="[A-Za-z\s-]{5,}" title="Title"></label>
-              <label class="jn">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-              <label class="jn">Phone*<input type="tel" name="phone" required></label>    
+            <legend>Primary Contact</legend>
+            <label class="jn">First Name*<input type="text" name="fname" required></label>
+            <label class="jn">Last Name*<input type="text" name="lname" required></label>
+            <label class="jn">Business Name<input type="text" name="bus-name" title="Business Name" required></label>
+            <label class="jn">Title<input type="text" name="bus-title" pattern="[A-Za-z\s-]{5,}" title="Title"></label>
+            <label class="jn">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="jn">Phone*<input type="tel" name="phone" required></label>
           </fieldset>
-        </div> 
-     
+        </div>
+
         <div class="membership">
           <fieldset>
-              <legend>Membership Packages</legend>
-              <label class="mbr"><input type="radio" name="member" value="affiliate"><span class="level"> Affiliate </span><span class="cost"> Free </span></label><p class="description"> Your business will be listed in the Milky Mountain Chamber online directory as well as in any local publications.</p>
-              <label class="mbr"><input type="radio" name="member" value="supporter"><span class="level"> Supporter </span><span class="cost"> $1,000 </span></label><p class="description"> Everything from the Affiliate level plus a plaque for your corporate offices. </p>
-              <label class="mbr"><input type="radio" name="member" value="strategicPartner"><span class="level"> Strategic Partner </span><span class="cost"> $5,000 </span></label><p class="description"> Everything from the Supporter level plus your name on a banner during the 4th of July Parade and recognition at citywide events.</p>
-              <label class="mbr"><input type="radio" name="member" value="executive"><span class="level"> Executive </span><span class="cost"> $9,000 </span></label><p class="description"> Everything from the Strategic Partner level plus inclusion in our monthly business spotlights.</p>
-            
-            </fieldset>
-          </div>
-          <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
-          <input type="submit" class="submitBtn" value="Join Today!">
-          </form>
+            <legend>Membership Packages</legend>
+            <label class="mbr"><input type="radio" name="member" value="affiliate"><span class="level"> Affiliate
+              </span><span class="cost"> Free </span></label>
+            <p class="description"> Your business will be listed in the Milky Mountain Chamber online directory as well
+              as in any local publications.</p>
+            <label class="mbr"><input type="radio" name="member" value="supporter"><span class="level"> Supporter
+              </span><span class="cost"> $1,000 </span></label>
+            <p class="description"> Everything from the Affiliate level plus a plaque for your corporate offices. </p>
+            <label class="mbr"><input type="radio" name="member" value="strategicPartner"><span class="level"> Strategic
+                Partner </span><span class="cost"> $5,000 </span></label>
+            <p class="description"> Everything from the Supporter level plus your name on a banner during the 4th of
+              July Parade and recognition at citywide events.</p>
+            <label class="mbr"><input type="radio" name="member" value="executive"><span class="level"> Executive
+              </span><span class="cost"> $9,000 </span></label>
+            <p class="description"> Everything from the Strategic Partner level plus inclusion in our monthly business
+              spotlights.</p>
+
+          </fieldset>
         </div>
- 
+        <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
+        <input type="submit" class="submitBtn" value="Join Today!">
+      </form>
+    </div>
+
 
     <footer>
-        <img class="footlogo" src="images/mmlogo2sm.webp" alt="Milky Mountain Logo">
-        <H2>Milky Mountain Chamber of Commerce</H2>
-        <p>1713 Main St.
-          <br>Milky Mountain, MT 59999
-        </p>
-        <hr>
-        <p>
-          &copy; <span id="copyrightyear"> Milky Mountain Chamber</span> | Dustin Baird | WDD230 | Last Updated: <span id="lastupdated"></span></p>
-          
-        </footer>
-    </div>
-    <script src="js/tempurature.js"></script>
-    <script src="js/dates.js"></script>
-    <script src="js/menu.js"></script>
+      <img class="footlogo" src="images/mmlogo2sm.webp" alt="Milky Mountain Logo">
+      <H2>Milky Mountain Chamber of Commerce</H2>
+      <p>1713 Main St.
+        <br>Milky Mountain, MT 59999
+      </p>
+      <hr>
+      <p>
+        &copy; <span id="copyrightyear"> Milky Mountain Chamber</span> | Dustin Baird | WDD230 | Last Updated: <span
+          id="lastupdated"></span></p>
+
+    </footer>
+  </div>
+  <script src="js/tempurature.js"></script>
+  <script src="js/dates.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 
 </html>
