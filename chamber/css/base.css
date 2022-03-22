@@ -294,8 +294,8 @@ p {
   grid-template-rows: 1fr 1fr;
 }
 .spotlight p {
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 13px;
+  
 }
 
 #spotlight1 {
