@@ -116,7 +116,7 @@ label.q input {
   width: 100%;
   max-width: 30rem;
   background-color: #cccbcb;
-  border: #00baf0 solid 2px;
+  border: #11b8ff solid 2px;
 }
 
 
@@ -129,5 +129,5 @@ label.cn input {
   height: 80px;
   width: 90%;
   background-color: #cccbcb;
-  border: #00baf0 solid 2px;
+  border: #11b8ff solid 2px;
 }

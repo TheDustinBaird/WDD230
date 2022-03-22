@@ -6,7 +6,7 @@ header h1 {
 header {
   display: inline-block;
   text-align: center;
-  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #11b8ff, #11b8ff);
   align-items: center;
   color: #000000;
   padding: 0.6em;
@@ -20,7 +20,7 @@ header {
 footer {
   display: inline-block;
   text-align: center;
-  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #11b8ff, #11b8ff);
   padding: 0.6em;
   grid-column-gap: 0.8rem;
   border-radius: 15px;
@@ -78,7 +78,7 @@ footer {
   display: block;
   flex-direction: column;
   width: 90px;
-  background-color: #00baf0;
+  background-color: #11b8ff;
 }
 
 .navbar-links li {
@@ -97,7 +97,7 @@ footer {
 
 button:hover {
   cursor: pointer;
-  color: #00baf0;
+  color: #11b8ff;
 }
 
 .toggle-button {
@@ -177,7 +177,7 @@ body {
 
 #banner {
   display: none;
-  background-color: #a8ada9;
+  background-color: #cccbcb;
   color: #000000;
   text-align: center;
   padding: 0.5rem;
@@ -237,7 +237,7 @@ p {
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #11b8ff, #11b8ff);
 }
 
 
@@ -255,7 +255,7 @@ p {
 
 .event h2 {
   color: #000000;
-  text-shadow: 1px 1.4px 0 #00baf0;
+  text-shadow: 1px 1.4px 0 #11b8ff;
 }
 .news {
   grid-column: 1;
@@ -265,13 +265,13 @@ p {
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #11b8ff, #11b8ff);
   padding: 0.5rem;
 }
 .join {
   display: none;
   border-style: solid;
-  border-color: #00baf0;
+  border-color: #11b8ff;
   height: auto;
   margin: 5px;
   text-align: center;
@@ -289,7 +289,7 @@ p {
   margin: 5px;
   text-align: center;
   border-radius: 10px;
-  background-color: #00baf0;
+  background-color: #11b8ff;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
 }
@@ -396,7 +396,7 @@ form {
 
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #00baf0;
+  border: 1px solid #11b8ff;
   border-radius: 10px;
   padding: 0.5rem 2.5%;
   max-width: 25rem;
@@ -407,7 +407,7 @@ form legend {
   color: #000000;
   margin: 0 1rem;
   padding: 0.5rem;
-  background-color: #00baf0;
+  background-color: #11b8ff;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -429,7 +429,7 @@ form label.jn select {
   width: 100%;
   max-width: 20rem;
   background-color: #cccbcb;
-  border: #00baf0 solid 2px;
+  border: #11b8ff solid 2px;
 }
 
 form label.mbr {
@@ -439,7 +439,7 @@ form label.mbr {
 
 form input.submitBtn {
   display: block;
-  border: #00baf0 solid 2px;
+  border: #11b8ff solid 2px;
   background-color: #000000;
   color: #ffffff;
   border-radius: 1rem;
@@ -449,23 +449,23 @@ form input.submitBtn {
 }
 
 form input.submitBtn:hover {
-  background-color: #00baf0;
+  background-color: #11b8ff;
   cursor: pointer;
 }
 
 form label.jn input:required {
-  border: #00baf0 solid 2px;
+  border: #11b8ff solid 2px;
 }
 
 .level {
-  color: #000;
+  color: #000000;
   font-weight: bold;
   font-size: 22px;
 }
 
 .cost {
-  background-color: #00baf0;
-  color: #000;
+  background-color: #11b8ff;
+  color: #000000;
   padding: 0.25rem 1rem;
   margin-left: 0.5rem;
   border-radius: 10px;
@@ -514,7 +514,7 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 15px;
-  border: 1px #000 solid;
+  border: 1px #000000 solid;
 }
 
 .list-view section p1 {
@@ -533,7 +533,7 @@ text-align: center;
 
 .card-view section h2 {
   display: block;
-  color: #00baf0;
+  color: #11b8ff;
 }
 
 .card-view {
@@ -546,19 +546,19 @@ text-align: center;
   padding: 0.5em;
   margin: 0.5em;
   border-radius: 15px;
-  border: 3px #000 solid;
+  border: 3px #000000 solid;
 }
 
 .list-view-btn button {
   padding: 0.6rem 3.9rem;
-  background-color: #d3d6db;
-  border: 3px #00baf0 solid;
+  background-color: #cccbcb;
+  border: 3px #11b8ff solid;
   border-radius: 15px;
   margin: 0.3em;
 }
 
 .list-view section:nth-child(2n) {
-  background: linear-gradient(to left, #ffffff, #00baf0, #00baf0);
+  background: linear-gradient(to left, #ffffff, #11b8ff, #11b8ff);
   border-radius: 15px;
 }
 
@@ -608,7 +608,7 @@ text-align: center;
 form input.submitBtn2 {
   display: block;
   border: #000000 solid 2px;
-  background-color: #00baf0;
+  background-color: #11b8ff;
   color: #000000;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -639,7 +639,7 @@ label.q input {
   width: 80%;
   max-width: 30rem;
   background-color: #cccbcb;
-  border: #00baf0 solid 2px;
+  border: #11b8ff solid 2px;
 }
 
 
@@ -652,12 +652,12 @@ label.cn input {
   height: 80px;
   width: 80%;
   background-color: #cccbcb;
-  border: #00baf0 solid 2px;
+  border: #11b8ff solid 2px;
 }
 
 fieldset .form2 {
   margin: 2rem 0;
-  border: 1px solid #00baf0;
+  border: 1px solid #11b8ff;
   border-radius: 10px;
   padding: 0.5rem 2.5%;
   padding-inline-end: 2rem;
@@ -668,7 +668,7 @@ fieldset .form2 {
   color: #000000;
   margin: 0 1rem;
   padding: 0.5rem;
-  background-color: #00baf0;
+  background-color: #11b8ff;
   border-radius: 10px;
   font-size: 20px;
 }
