@@ -1,12 +1,12 @@
 header, footer {
     width: 100%;
     max-width: 1660px;
-
 }
+
 
 .headtemp{
   display: flex;
-  float: right;
+  float: right; 
   flex-wrap: wrap;
   align-items: center;
   margin: auto;
