@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Temple Inn & Suites" />
+  <title>Temple Inn & Suites</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1032px)" href="css/large.css" />
+  <script src="js/toggle.js" defer></script>
+</head>
+
+
+  <header>
+    <img class="logo" src="images/templelogo1.png" alt="Temple Inn Logo">
+    <div class="head-title">
+      <h1>Temple Inn and Suites</h1>
+      <h2>Providing a Heavenly Experience</h2>
+    </div>
+    
+    <nav class="navbar">
+
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li class="active"><a href="index.html">Home </a></li>
+          <li><a href="reservation.html">Reservations</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><img src="images/face1.png" alt="Facebook logo"></a>
+        <a href="https://linkedin.com" target="_blank"><img src="images/linkin1.png" alt="LinkedIn logo"></a>
+        <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" alt="twitter logo"></a>
+    </div>
+    </nav>
+
+  </header>
+  <div id="banner"> Severe Weather Alert</div>
+  <span id="alert"></span>
+
+  <section class="grid-container">
+  <div class="hero">
+    <picture>
+      <source media="(max-width: 599px)" srcset="images/hawaiism.webp">
+      <source media="(max-width: 1031px)" srcset="images/hawaiimd.webp">
+      <source media="(max-width: 1600px)" srcset="images/hawaiiwd.webp">
+      <img src="images/hawaiiwd.webp" alt="Hawaii Temple">
+    
+    </picture>
+    
+  </div>
+<div class="book">
+  <form action="reservation.html"><button>Book Now!</button></form>
+</div>
+
+  <div class="purpose">
+    <h2>Our Purpose</h2>
+    <p>As our motto says, we are striving to provide you with a heavenly experience as you attend or visit the temple.
+      With nearly 50 locations, each adjacent a temple site, we are working to give temple patrons a place to change, relax,
+      lodge for the night, learn more about the temple, or to be a home base for the many other activites available in the
+      surrounding areas. 
+    </p>
+    
+  </div>
+  <section class="weather">      
+    <h2>Today's Weather</h2>
+    <img src="" alt="" id="weathericon">
+    <div class="summaryGrid">
+      <div class="label">Currently:</div>
+      <div class="weathSumm current"><span id="condition"></span></div>
+      <div class="label">Temp:</div>
+      <div class="weathSumm"><span id="temp"></span>&#176;F</div>
+      <div class="label">Wind Speed:</div>
+      <div class="weathSumm"><span id="wind"></span> mph</div>
+      <div class="label">Wind Chill:</div>
+      <div class="weathSumm"><span id="windChill"></span>&#176;F</div>
+      <div class="label">Humidity:</div>
+      <div class="weathSumm"><span id="humidity"></span>%</div>
+      <div class="label">High Temp:</div>
+      <div class="weathSumm"><span id="temp_max"></span>&#176;F</div>
+      <div class="label">Sunrise:</div>
+      <div class="weathSumm"><span id="sunrise"></span></div>
+      <div class="label">Sunset:</div>
+      <div class="weathSumm"><span id="sunset"></span></div>
+      </div>
+  </section>
+  <div class="news">
+    <h2>Local Happenings</h2>
+    <p>You've come at a great time, the cherry blossoms are in full bloom this week.</p>
+    <p>something here</p>
+</div>
+<div class="weddings">
+    <h2><a href="join.html">Wedding Receptions</a></h2>
+    <p>One of our favorite things is the opportunity to be part of your special day. </p>
+      <p> We would love to have your family, friends, and relatives (even the weird ones) to join us as we 
+        celebrate your marriage in our grand ballroom or vast outdoor gardens. </p>
+  </div>
+
+<div class="forecast">
+  <img src="images/forecast.jpg" alt="Hawaii Temple">
+</div>
+  </section>
+
+  <footer>
+        <img class="logo" src="images/templelogo1.png" alt="Temple Inn Logo">
+        <h2>Temple Inn & Suites<br><span class="footer-address">4800 Montgomery Ln #300<br>Bethesda, MD 20814</span></h2>
+          <div class="map">
+            <a href="https://goo.gl/maps/3YupyqvMmoxFga838" target="_blank"
+              ><img src="images/map.webp" alt="map"></a>
+          </div>
+    
+            <hr>
+        
+        <p>
+          &copy; <span id="copyrightyear"> The Temple Inn</span> | Dustin Baird | WDD230 | Last Updated: <span id="lastupdated"></span></p>
+          
+      </div> 
+        </footer>
+    
+        <script src="js/dates.js"></script>
+        <script src="js/weatherapi.js"></script>
+        <script src="js/spotlight.js"></script>
+    </body>
+    
+    </html>

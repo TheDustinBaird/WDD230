@@ -1,0 +1,643 @@
+.head title, h1 {
+    font-family: "Great Vibes";
+    font-size: 45px;
+}
+
+header {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(to left, #ffffff, #ccedc4, #C6EBBE, #C6EBBE, #aae19d);
+  align-items: center;
+  border-radius: 15px;
+  width: 100%;
+  margin: 0.1em auto;
+  max-width: 960px;
+}
+
+footer {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(to left, #ffffff, #ccedc4, #C6EBBE, #C6EBBE, #aae19d);
+  padding: 0.6em;
+  border-radius: 15px;
+  width: 100%;
+  margin: auto;
+  max-width: 960px;
+}
+
+
+.footer-address {
+  font-weight: 400;
+}
+
+.name {
+  margin-left: 0.5rem;
+  background: none;
+}
+
+.name h1 {
+  font-family: "Great Vibes";
+  font-size: 3.5rem;
+  margin: 0.5rem;
+}
+
+.name h2 {
+  font-family: "Great Vibes";
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  font-weight: 700;
+}
+
+.index-name {
+  margin-left: 0.5rem;
+  background: none;
+}
+
+.index-name h1 {
+  font-family: "Great Vibes";
+  font-size: 3.5rem;
+  margin: 0.5rem;
+}
+.index-name h2 {
+  font-family: "Great Vibes";
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-links ul {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  width: 90px;
+}
+
+.navbar-links li {
+  text-align: center;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0.5rem 0.5rem;
+  display: block;
+}
+.navbar :hover {
+  color: #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #C6EBBE;
+}
+
+.book {
+  font-size: xx-large;
+  background-color: #C6EBBE;
+  border-radius: 10px;
+  width: 99%;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: -10px;
+  left: -10px;
+  bottom: -10px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.navbar-links {
+  display: none;
+}
+
+nav ul li.active a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.navbar-links.active {
+  display: flex;
+  margin-top: -5rem;
+  z-index: 5;
+  color: #ffffff;
+}
+
+.headtemp {
+  display: none;
+}
+
+.date {
+  display: flex;
+  float: right;
+  padding: 0.1rem;
+  color: #000000;
+  font-size: 12px;
+  margin-right: 32px;
+}
+
+.social {
+  display: inline-flex;
+  float: right;
+  width: 20px;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.social img {
+  width: 25px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+#banner {
+  display: none;
+  background-color: #cccbcb;
+  color: #000000;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  font-family: Roboto;
+}
+
+.logo {
+  display: none;
+}
+
+.map {
+  float: right;
+  padding: .5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
+  grid-gap: 5px;
+  font-size: 1em;
+  padding-top: 1rem;
+}
+
+
+.hero img {
+  max-width: 95%;
+  border-radius: 15px;
+  padding: .5rem;
+}
+
+.hero {
+  grid-column: 1;
+  grid-row: 1/2;
+  border-style: solid;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.weather {
+  grid-column: 1;
+  grid-row: 3/4;
+  border-style: solid;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.purpose {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  border-style: solid;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.purpose h2 {
+  font-family: Great Vibes;
+  font-size: 35px;
+}
+
+.forecast img{
+  width: 800px
+}
+
+.news {
+  grid-column: 1;
+  grid-row: 4/5;
+  border-style: solid;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.weddings {
+  display: none;
+  border-style: solid;
+  border-color: #C6EBBE;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+
+
+/**************** Discover Page***************************/
+.discover-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  max-width: 400px;
+}
+
+.discover-main h2 {
+  font-family: "Great Vibes";
+  font-size: 50px;
+  text-align: center;
+}
+
+.deck {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  padding: 1em;
+  margin: auto;
+}
+
+.card p {
+  margin-top: 10px;
+  padding: 1em;
+  max-width: 400px;
+}
+
+.discover img[data-src] {
+  filter: blur(0.2em);
+}
+
+.discover img {
+  filter: blur(0em);
+  transition: filter 0.1s;
+}
+
+.lastvisit {
+  padding: 0.1rem;
+  color: #000000;
+  font-size: 12px;
+}
+
+/**************JOIN PAGE********************/
+
+form {
+  margin: auto 0.5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.weddingsmain h2 {
+  font-family: "Great Vibes";
+  font-size: 50px;
+  text-align: center;
+}
+
+.description {
+  display: none;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #C6EBBE;
+  border-radius: 10px;
+  padding: 0.5rem 2.5%;
+  max-width: 25rem;
+  padding-inline-end: 2rem;
+}
+
+form legend {
+  color: #000000;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  background-color: #C6EBBE;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+form label.jn,
+form div {
+  display: block;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+form label.jn input,
+form label.jn select {
+  display: block;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #000000;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #cccbcb;
+  border: #C6EBBE solid 2px;
+}
+
+form label.mbr {
+  display: block;
+  padding: 0.75rem 0;
+}
+
+form input.submitBtn {
+  display: block;
+  border: #C6EBBE solid 2px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem auto;
+  width: 200px;
+}
+
+form input.submitBtn:hover {
+  background-color: #C6EBBE;
+  cursor: pointer;
+}
+
+form label.jn input:required {
+  border: #C6EBBE solid 2px;
+}
+
+.level {
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.cost {
+  background-color: #C6EBBE;
+  color: #000000;
+  padding: 0.25rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+}
+
+/***********THANK YOU PAGE***********/
+.thankyou-main {
+  grid-template-columns: 1fr;
+  font-size: 30px;
+  padding: 1rem;
+  justify-items: center;
+}
+
+.thankyou-main h2 {
+  margin-bottom: 1rem;
+}
+
+.thankyou-main p {
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.thankyou-main video {
+  float: right;
+}
+
+/*************DIRECTORY PAGE*************/
+.directory {
+  text-align: center;
+}
+
+h2.heading{
+font-family: "Great Vibes";
+font-size: 50px;
+text-align: center;
+}
+
+.list-view img,
+.card-view section h2 {
+  display: none;
+}
+
+
+.list-view section {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 15px;
+  border: 1px #000000 solid;
+}
+
+.list-view section p1 {
+  display: none;
+}
+
+.list-view section p2 {
+  display: none;
+}
+
+.card-view img {
+  display: block;
+  width: 250px;
+  margin: auto;
+}
+
+.card-view section h2 {
+  display: block;
+  color: #C6EBBE;
+}
+
+.card-view {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*The Directory Cards*/
+.card-view section {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 15px;
+  border: 3px #000000 solid;
+}
+
+.list-view-btn button {
+  padding: 0.6rem 3.9rem;
+  background-color: #cccbcb;
+  border: 3px #C6EBBE solid;
+  border-radius: 15px;
+  margin: 0.3em;
+}
+
+.list-view section:nth-child(2n) {
+  background: linear-gradient(to left, #ffffff, #ccedc4, #C6EBBE, #C6EBBE, #aae19d);
+  border-radius: 15px;
+}
+
+.list-view section {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-view section {
+  font-size: 20px;
+  vertical-align: center;
+  color: #000000;
+  font-family: Roboto;
+  justify-content: center;
+}
+
+/**********************WEATHER SUMMARY************************/
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  font-size: 20px;
+}
+.weather h2 {
+  text-shadow: -1px -1px 5px #ffffff, 1px -1px 5px #ffffff, 1px 1px 5px #ffffff;
+}
+
+.label {
+  text-align: right;
+}
+
+.weathSumm {
+  text-align: left;
+}
+
+/* capitalize the first letter of the weather condition*/
+#condition {
+  display: block;
+}
+
+#condition::first-letter {
+  text-transform: capitalize;
+}
+
+/**********CONTACT PAGE***********/
+form input.submitBtn2 {
+  display: block;
+  border: #000000 solid 2px;
+  background-color: #C6EBBE;
+  color: #000000;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem auto;
+  width: 200px;
+}
+
+form input.submitBtn2:hover {
+  background-color: #000000;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+.form2 {
+  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  max-width: 95%;
+}
+
+label.q input {
+  display: block;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #000000;
+  width: 80%;
+  max-width: 30rem;
+  background-color: #cccbcb;
+  border: #C6EBBE solid 2px;
+}
+
+
+label.cn input {
+  
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #000000;
+  height: 80px;
+  width: 80%;
+  background-color: #cccbcb;
+  border: #C6EBBE solid 2px;
+}
+
+fieldset .form2 {
+  margin: 2rem 0;
+  border: 1px solid #C6EBBE;
+  border-radius: 10px;
+  padding: 0.5rem 2.5%;
+  padding-inline-end: 2rem;
+  
+}
+
+.form2 legend {
+  color: #000000;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  background-color: #C6EBBE;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.submitted h2{
+  font-family: "Great Vibes";
+  font-size: 150px;
+  margin: 0.5rem;
+  text-align: center;
+}
+

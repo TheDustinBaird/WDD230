@@ -1,0 +1,253 @@
+.head title, h1 {
+  font-size: 60px;
+}
+
+.toggle-button {
+    display: none;
+  }
+  .navbar-links {
+    display: flex;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    justify-content: space-between;
+    margin-left: 40px;
+  }
+  
+  .navbar-links ul {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .navbar-links li {
+    list-style: none;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    padding: 0.2rem;
+    display: flex;
+    width: 100%;
+    background: #C6EBBE;
+  }
+  .name {
+    font-size: 47px;
+  }
+
+  .index-name h1{
+    font-size: 56px;
+    margin-right: 195px;
+  }
+ 
+
+  footer {
+    display: flex;
+      flex-flow: row wrap;
+      flex: 1 1 33%;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  footer h2 {
+    flex-grow:inherit;
+    text-align: center;
+  }
+  
+  footer img {
+    align-self: center;
+  }
+  
+  hr {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .logo {
+    display: block;
+    float: left;
+    padding: 15px;
+  }
+
+  .headtemp{
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+  }
+  .headtemp h2 {
+    font-size: 15px;
+  }
+
+  #tempurature {
+    font-size: 25px;
+    padding-left: .5rem;
+  }
+
+  .tempsymbol {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  .grid-container {
+    grid-template-columns:1fr 1fr;
+    font-size: 1em;
+    max-width: 1031px;
+    margin: auto;
+    grid-row-gap: 1em;
+    grid-column-gap: 10px;
+ }
+
+ .hero img {
+    max-width: 95%;
+  }
+
+  .hero {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  
+  .hero h2 {
+    font-size: 40px;
+  }
+
+  .news {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+
+  .weddings {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
+  
+  .weather {
+    grid-column: 3;
+    grid-row: 5/6;
+    
+    
+  }
+  .event {
+    grid-column: 1/3;
+    grid-row:5/6;
+  }
+  
+
+.footlogo {
+  display: block;
+    float: left;
+    left: 10px;
+    top: 10px;
+    width: 9rem;
+    border-radius: 10px;
+}
+
+/************* DISCOVER PAGE   *************/
+.deck {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows:auto;
+  grid-gap: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card img {
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+}
+
+.card img:hover {
+  transform: scale(1.04);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 0 10px #C6EBBE;
+
+}
+
+/*JOIN PAGE*/
+
+.joinmain {
+  justify-items: center;
+}
+.joinmain h2 {
+  margin-top: 1rem;
+  
+}
+
+.joingrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+
+.contact{
+  grid-column: 1/2;
+  margin-left: 3rem;
+  
+}
+
+.membership {
+  grid-column: 2/3;
+  
+}
+
+form input.submitBtn{
+  display: grid;
+  grid-row: 3;
+  position: relative;
+  left: 50%;
+
+  
+}
+.description {
+  display: block;
+font-size: 16px;
+}
+
+/***********************DIRECTORY PAGE***********************/
+
+.list-view section {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.list-view section h2 {
+  display: block;
+  font-size: 1.3em;
+}
+
+.list-view section p1, p2, p3 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: black; 
+  font-family: Roboto;
+  }
+
+.card-view section p1, p2, p3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    }
+  
+
+.list-view section p2 {
+    display: flex;
+}
+
+.card-view {
+  grid-template-columns: repeat(2, 1fr);
+}
