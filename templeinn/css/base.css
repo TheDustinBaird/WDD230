@@ -506,7 +506,7 @@ text-align: center;
   grid-template-columns: 1fr;
 }
 
-/*The Directory Cards*/
+/*Cards*/
 .card-view section {
   padding: 0.5em;
   margin: 0.5em;
@@ -606,6 +606,8 @@ label{
   padding: 1em;
 }
 
+  
+}
 
 fieldset .form2 {
   margin: 2rem 0;

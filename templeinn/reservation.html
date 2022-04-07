@@ -53,12 +53,16 @@
     <div class="contact">
         <fieldset class="form2">
           <legend>Book your getaway today!</legend>
+          <label class="q">Destination Location*<input type="text" name="location" required></label>
+          <label class="q">Home Town<input type="text" name="home"></label>
           <label class="q">First Name*<input type="text" name="fname" required></label>
           <label class="q">Last Name*<input type="text" name="lname" required></label>
           <label class="q">Phone*<input type="tel" name="phone" required></label>
           <label class="q">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="q">Number of Rooms<input type="number" name="rooms" required></label>
           <label class="q">Check in date<input type="date" name="date" placeholder="yyyy-mm-dd" required></label>
           <label class="q">Check in out<input type="date" name="date" placeholder="yyyy-mm-dd" required></label>
+          <label class="q">Type of Room<input type="text" name="type" placeholder="Two Queens, Single King, King Suite, 5 Bunk Beds">
           <label class="cn">What services are you interested in?*<input type="text" name="services" title="Services" required></label>
 
           <input type="hidden" id="submitdate" name="submitdate" value="">
