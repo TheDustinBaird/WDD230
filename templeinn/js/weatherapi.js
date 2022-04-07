@@ -1,12 +1,17 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=84321,us&units=imperial&appid=8da5731fdc8f1ba7b72c7704ddbeee84';
+const apiURL = /*'https://api.openweathermap.org/data/2.5/onecall?lat=41.06&lon=-111.94&exclude=hourly,minutely&units=imperial&appid=8da5731fdc8f1ba7b72c7704ddbeee84';*/
+'https://api.openweathermap.org/data/2.5/weather?zip=84041,us&units=imperial&appid=8da5731fdc8f1ba7b72c7704ddbeee84';
 
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
       
+      console.log(jsObject)
 
       const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
       const desc = jsObject.weather[0].description;
+      
+
+
       document.querySelector('#weathericon').setAttribute('src', iconsrc);
       document.querySelector('#weathericon').setAttribute('alt', desc);
       document.getElementById('condition').textContent = jsObject.weather[0].description;
@@ -14,8 +19,9 @@ fetch(apiURL)
       document.getElementById('temp_max').textContent = (Math.round(jsObject.main.temp_max));
       document.getElementById('wind').textContent = (Math.round(jsObject.wind.speed));
       document.getElementById('windChill').textContent = (windChill(jsObject.main.temp, jsObject.wind.speed));
-      document.getElementById('humidity').textContent = (jsObject.main.humidity);
-
+      document.getElementById('humidity').textContent = jsObject.main.humidity;
+       
+      
 
       //convert unix time for sunrise
       let unix_sunrise = jsObject.sys.sunrise
@@ -35,7 +41,8 @@ fetch(apiURL)
       var formattedSunset = hours + ':' + minutes.substr(-2) + ' pm';
       document.getElementById('sunset').textContent = formattedSunset;
 
-      const alert = jsObject.alerts[0];
+      //severe weather alert
+      const alert = jsObject.alerts[1];
       const alertMessage = `${alert.event} ${alert.description} issued at ${alert.time} and expires at ${alert.expires}`;
       console.log(alertMessage);
       const alertDiv = document.createElement("div");
@@ -43,9 +50,6 @@ fetch(apiURL)
       document.querySelector("#alert").appendChild(alertDiv);
   });
       
-      
-  
-  
 
 
 //windcill calculation

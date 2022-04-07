@@ -207,6 +207,7 @@ p {
 .map {
   float: right;
   padding: .5rem;
+  margin-right: 20px;
 }
 
 .grid-container {
@@ -262,8 +263,11 @@ p {
   font-size: 35px;
 }
 
-.forecast img{
-  width: 800px
+.forecast{
+  grid-column: 1/4;
+  grid-row: auto;
+  
+  
 }
 
 .news {
@@ -640,4 +644,6 @@ fieldset .form2 {
   margin: 0.5rem;
   text-align: center;
 }
+
+
 
