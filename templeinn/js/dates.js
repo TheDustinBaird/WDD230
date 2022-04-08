@@ -17,6 +17,6 @@ copyrightyear.textContent = year;
 const datefield = document.querySelector(".date");
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(d);
 
-datefield.innerHTML =`<em>${fulldateUK}</em>`;
+
 
 

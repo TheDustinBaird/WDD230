@@ -5,7 +5,7 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
       
-      console.log(jsObject)
+      
 
       const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
       const desc = jsObject.weather[0].description;
@@ -42,12 +42,12 @@ fetch(apiURL)
       document.getElementById('sunset').textContent = formattedSunset;
 
       //severe weather alert
-      const alert = jsObject.alerts[1];
+      /*const alert = jsObject.alerts[0];
       const alertMessage = `${alert.event} ${alert.description} issued at ${alert.time} and expires at ${alert.expires}`;
       console.log(alertMessage);
       const alertDiv = document.createElement("div");
       alertDiv.textContent = alertMessage;
-      document.querySelector("#alert").appendChild(alertDiv);
+      document.querySelector("#alert").appendChild(alertDiv);*/
   });
       
 
